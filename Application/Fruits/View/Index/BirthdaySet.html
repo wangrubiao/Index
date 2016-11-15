@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>设置生日</title>
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="minimal-ui=yes,width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="msapplication-tap-highlight" content="no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="wap-font-scale" content="no">
+<meta name="applicable-device" content="mobile">
+<meta name="tp_page" content="851.0">
+<script type="text/javascript" src="__PUBLIC__/Library/jquery-1.9.1/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Library/Calendar/Calendar.js"></script>
+<link href="__PUBLIC__/{$Think.config.projectName}/css/global_site_base.css" rel="stylesheet" type="text/css">
+<link href="__PUBLIC__/{$Think.config.projectName}/css/h5AddressBookAddOrEdit.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="touchweb-com_header header_flex" id="globalHeader">
+<a id="topIconBack" class="left icon-back" href="javascript:history.go(-1);" data-tpa="H5_GLOBAL_ICON_GOBACK" data-trackersend="1"></a>
+<h1>设置生日</h1>
+<div class="rightBox" data-tpa="H5_GLOBAL_ICON_RIGHTBOX">
+</div></div>
+<div class="address_add_content">
+  <form action="" name="addressForm" id="addressForm_id">
+    <input type="hidden" id="prefixmy" value="http://my.yhd.com">
+    <input type="hidden" name="provinceId_temp2" id="provinceId_temp2">
+    <input type="hidden" name="goodReceiverId" value="44469574">
+    <ul>
+      <li> </li>
+      <li> </li>
+      <li> </li>
+      <li><b>日期格式：2016-01-06</b></li>
+      <li>
+        <input type="tel" name="receiverPhone" id="receiverPhone_id" value="{$user.birthday|date='Y-m-d',###}" placeholder="您的生日"  onClick="new Calendar().show(this); ">
+      </li>
+      <li><b>注意事项</b>：</li>
+      <li>
+        生日保存后无法修改，请您按身份证日期填写，享受生日特权需要出示身份证。感谢您的支持！
+      </li>
+
+      <li><span class="save" id="saveAdd" data-tpa="1302">保存</span></li>
+    </ul>
+  </form>
+</div>
+<nav></nav>
+</body>
+</html>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('#saveAdd').on('click',function(){
+      var dtime = $('#receiverPhone_id').val();
+      var url = "{:U('birthdayComplete')}";
+     if(dtime==""){
+        alert("请输入您的生日");
+        return false;
+    }
+    $.post(url,{dtime:dtime},function(data){
+        alert(data['centent']);
+    });
+  });
+});
+</script>

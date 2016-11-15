@@ -1,0 +1,66 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>静态-快递打单</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/print/css/main.css" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/print/css/styles.css" />
+</head>
+<body>
+<div id="main">
+  <div class="demo">
+
+  <div class="demo">
+       
+	<div class="note yellow ui-draggable" style="left:757px;top:624px;z-index:166">
+		<span class="data">订单号</span>{$info['order']}
+	</div>
+	<div class="note yellow ui-draggable" style="left:774px;top:490px;z-index:152">
+		<span class="data">代收金额</span>{$info['mey']}
+	</div>
+	<div class="note yellow ui-draggable" style="left:810px;top:270px;z-index:65">
+		<span class="data">收货人手机</span>{$info['mob']}
+	</div>
+	<div class="note yellow ui-draggable" style="left:558px;top:280px;z-index:63">
+		<span class="data">收货电话<</span>
+	</div>
+	<div class="note yellow ui-draggable" style="left:600px;top:195px;z-index:58">
+		<span class="data">收货地址</span>{$info['address']}
+	</div>
+	<div class="note yellow ui-draggable" style="left:655px;top:163px;z-index:56">
+		<span class="data">收件人单位</span>
+	</div>
+	<div class="note yellow ui-draggable" style="left:600px;top:167px;z-index:46">
+		<span class="data">名字</span>{$info['consignee']}
+	</div>
+	<div class="note yellow ui-draggable" style="left:153px;top:535px;z-index:135">
+		<span class="data">发货时间</span>{$info['order']|date="Y-m-d",###}
+	</div>
+	<div class="note yellow ui-draggable" style="left:314px;top:270px;z-index:50">
+		<span class="data">手机</span>13246891178
+	</div>
+	<div class="note yellow ui-draggable" style="left:137px;top:280px;z-index:51">
+		<span class="data">固话</span>
+	</div>
+	<div class="note yellow ui-draggable" style="left:95px;top:206px;z-index:52">
+		<span class="data">3.</span>尊敬的快递员您辛苦了，这位顾客对我们非常重要，请<p>
+		您一定要微笑着把包裹递到客户手里，谢谢！
+	</div>
+	<div class="note yellow ui-draggable" style="left:110px;top:345px;z-index:165">
+		<span class="data">产品信息</span>{$info['product']}
+	</div>
+	<div class="note yellow ui-draggable" style="left:110px;top:380px;z-index:165">
+		<span class="data">尺码</span>{$info['size']}
+	</div>
+	<div class="note yellow ui-draggable" style="left:280px;top:348px;z-index:165">
+		<span class="data">数量</span>1
+	</div>
+	<div class="note blue ui-draggable" style="left: 100px; top: 167px; z-index: 70; opacity: 1;">
+		<span class="data">1.</span>仓库部
+	</div>
+    </div>
+    
+</div>
+</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>审核采购单</title>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/lib/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/stylesheets/theme.css">
+<link rel="stylesheet" href="__PUBLIC__/Admin/lib/font-awesome/css/font-awesome.css">
+<script src="__PUBLIC__/Admin/lib/jquery-1.7.2.min.js" type="text/javascript"></script>
+
+<!-- Demo page code -->
+
+<style type="text/css">
+#line-chart {
+	height: 300px;
+	width: 800px;
+	margin: 0px auto;
+	margin-top: 1em;
+}
+.brand {
+	font-family: georgia, serif;
+}
+.brand .first {
+	color: #ccc;
+	font-style: italic;
+}
+.brand .second {
+	color: #fff;
+	font-weight: bold;
+}
+.checkPage a {
+	color: red;
+	background: red;
+}
+.pagenNo a {
+	color: #ccc;
+	pointer-events: none;
+}
+.infoNo a {
+	color: #333333;
+	pointer-events: none;
+}
+tr:hover {
+	background: #F6F6F6;
+}
+.current {
+	color: red;
+}
+/**模态框**/
+
+</style>
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="__PUBLIC__/Admin/lib/font-awesome/docs/assets/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="__PUBLIC__/Admin/lib/font-awesome/docs/assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="__PUBLIC__/Admin/assets/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="__PUBLIC__/Admin/lib/font-awesome/docs/assets/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="__PUBLIC__/Admin/lib/font-awesome/docs/assets/ico/apple-touch-icon-57-precomposed.png">
+</head>
+
+<!--[if lt IE 7 ]> <body class="ie ie6"> <![endif]-->
+<!--[if IE 7 ]> <body class="ie ie7 "> <![endif]-->
+<!--[if IE 8 ]> <body class="ie ie8 "> <![endif]-->
+<!--[if IE 9 ]> <body class="ie ie9 "> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<body class="">
+<!--<![endif]-->
+
+<div class="content">
+  <div class="header">
+    <h1 class="page-title">Order</h1>
+  </div>
+  <ul class="breadcrumb">
+    <li><a href="index.html">Home</a> <span class="divider">/</span></li>
+    <li class="active">审核采购单</li>
+  </ul>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <!--<div class="btn-toolbar">
+        <button class="btn btn-primary"><i class="icon-plus"></i> 新 增</button>
+    <button class="btn">Import</button>
+    <button class="btn">历史成交<font color="red"><b>{$nowSum}</b></font>元&nbsp共<font color="red"><b>{$nowCount}</b></font>单&nbsp均价为<font color="red"><b>{$nowAvg}</b></font>元</button>-->
+      <!--<div class="btn-group"></div>
+      </div>-->
+       <span>应付金额：{$row.total_mey} 元&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;实付金额：{$row['total_mey']-$row['discount']} 元&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;采购总数量：{$row.total}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;采购日期：{$row.taketime|date="Y-m-d H:i:s",###}</span>
+      <div class="well">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>sku_ID</th>
+              <th>商 品</th>
+              <th>SKU</th>
+              <th>数 量</th>
+              <th>单 价</th>
+            </tr>
+          </thead>
+          <tbody>
+          <foreach name="list" item="vo">
+          <tr>
+            <td>{$vo.id}</td>
+            <td>{$vo.spec_name}</td>
+            <td>{$vo.focus_name}</td>
+            <td>{$vo.quantity}</td>
+            <td>{$vo.buying}</td>
+          </tr>
+          </foreach>
+          <foreach name="listB" item="voB">
+          <tr>
+            <td>{$voB.id}</td>
+            <td>{$voB.gift_name}</td>
+            <td>{$voB.gift_spec}</td>
+            <td>{$voB.quantity}</td>
+            <td>{$voB.buying}</td>
+          </tr>
+          </foreach>
+          </tbody>
+        </table>
+      </div>
+      <div class="pagination">
+    <button class="btn" id="query">确定审核</button>
+    <button class="btn" onclick="history.go(-1)">返回上页</button>
+      </div>
+      <footer>
+        <hr>
+        <p class="pull-right">Collect from <a href="#" title="维新" target="_blank">维新</a></p>
+        <p>&copy; 2015 <a href="#" target="_blank">Portnine</a></p>
+      </footer>
+    </div>
+  </div>
+</div>
+
+<!--生成采购单-->
+<div class="modal small hide fade" id="modalStock" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">提 示</h3>
+  </div>
+  <div class="modal-body"> 
+    <p class="error-text"><i class="icon-question-sign modal-icon"></i>是否审核采购单</p>
+    <input name="orderId" id="orderId" type="hidden" value="{$id}"/>
+  </div>
+  <div class="modal-footer">
+    <button id="confirm" class="btn" data-dismiss="modal" aria-hidden="true">确定</button>
+    <button class="btn btn-danger" data-dismiss="modal">取消</button>
+  </div>
+</div>
+<!--生成采购单 end-->
+<!--模态框提示-->
+<div class="modal fade" id="myModala" tabindex="-1" role="dialog" 
+   aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close refresh" 
+               data-dismiss="modal" aria-hidden="true"> &times; </button>
+        <h4 class="modal-title" id="myModalLabel"> Error </h4>
+      </div>
+      <div class="modal-body modal-bodyTwo"> 
+        <!--弹出层内容--> 
+      </div>
+    </div>
+  </div>
+  <!-- /.modal-content --> 
+</div>
+<!--模态框提示 end -->
+<script src="__PUBLIC__/Admin/lib/bootstrap/js/bootstrap.js"></script> 
+<script type="text/javascript">
+      $(document).ready(function(){
+			$("[rel=tooltip]").tooltip({
+				placement:'left'
+			});
+      $("[rel=tooltipRight]").tooltip({
+        placement:'right'
+      });
+      //审核采购单
+      $("#query").live("click",function(){
+        $("#modalStock").modal("show");
+      });
+      //确定审核采购单
+      $("#confirm").live("click",function(){
+        var url = "{:U('confirmExamine')}";
+        var id = $("#orderId").val();
+        $.post(url,{id:id},function(data){
+          $.bShow(data);
+        });
+      });
+
+       //该函数主要是当提示框提示完成确定后刷新
+      $(".refresh").live("click",function(){
+          location.reload();
+      });
+			$.bShow = function(data){
+				//弹出层样式 && 弹出内容
+				$(".modal-title").text("提示");
+				$("#myModala").css({
+					width: 'auto',
+					'margin-left': function () {
+					return -($(this).width() / 2);
+					}
+				});
+				$(".modal-bodyTwo").text(data);
+				$("#myModala").modal("show");
+			};
+    });
+		
+		
+    </script>
+</body>
+</html>

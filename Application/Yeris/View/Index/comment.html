@@ -1,0 +1,85 @@
+﻿<div class="kg-rate">
+      <div class="J_KgRate_Main">
+        <div class="J_KgRate_MainReviews" data-kg-rate-tab="reviews">
+          <div class="tb-revhd">
+            <div class="kg-rate-wd-filter-bar">
+              <ul class="J_KgRate_Filter filtering">
+                <li class="is-current">
+                  <label for="reviews-t-all">
+                    <input type="radio" name="J_KgRate_ReviewType" id="reviews-t-all" value="" checked="">
+                    全部 </label>
+                </li>
+                <!--<li data-kg-rate-filter-val="3">
+                  <label for="reviews-t-val3">
+                    <input type="radio" name="J_KgRate_ReviewType" id="reviews-t-val3" value="3">
+                    图片 <span class="tb-tbcr-num"> <span data-kg-rate-stats="pic">(0)</span> </span> </label>
+                </li>
+                <li data-kg-rate-filter-val="2">
+                  <label for="reviews-t-val2">
+                    <input type="radio" name="J_KgRate_ReviewType" id="reviews-t-val2" value="2">
+                    追评 <span class="tb-tbcr-num"> <span data-kg-rate-stats="append">(0)</span> </span> </label>
+                </li>-->
+                <li data-kg-rate-filter-val="1">
+                  <label for="reviews-t-val1">
+                    <input type="radio" name="J_KgRate_ReviewType" id="reviews-t-val1" value="1">
+                    好评 <span class="tb-tbcr-num"> <span class="content-regarded" data-kg-rate-stats="good">({$sum*136})</span></span> </label>
+                </li>
+                <li data-kg-rate-filter-val="0">
+                  <label for="reviews-t-val0">
+                    <input type="radio" name="J_KgRate_ReviewType" id="reviews-t-val0" value="0">
+                    中评 <span class="tb-tbcr-num"> <span data-kg-rate-stats="neutral">(0)</span> </span> </label>
+                </li>
+                <li data-kg-rate-filter-val="-1">
+                  <label for="reviews-t-val-1">
+                    <input type="radio" name="J_KgRate_ReviewType" id="reviews-t-val-1" value="-1">
+                    差评 <span class="tb-tbcr-num"> <span data-kg-rate-stats="bad">(0)</span> </span> </label>
+                </li>
+                <!--<li>
+                  <label for="reviews-t-content-regarded">
+                    <input type="checkbox" checked="checked" id="reviews-t-content-regarded" data-act="hascontent">
+                    有内容的评价 </label>
+                </li>-->
+              </ul>
+              <!--<div class="sorting">
+                <div class="tb-current"><span class="J_KgRate_SortText">发布评论</span></div>
+              </div>-->
+            </div>
+          </div>
+<foreach name="list" item="v">
+          <div class="tb-revbd">
+            <ul>
+              <li class="J_KgRate_ReviewItem kg-rate-ct-review-item" tabindex="0">
+                <div class="from-whom"> <img class="avatar" src="https://img.alicdn.com/imgextra/i1/2209555500/TB20X9ymFXXXXc3XXXXXXXXXXXX_!!2209555500.gif">
+                  <div>{$v.name}</div>
+                  <!--<img src="//assets.alicdn.com/sys/common/icon/rank_s/b_red_5.gif?t=20111027"> --></div>
+                <div class="review-details">
+                  <!--<ul class="tb-tbcr-spu tb-tbcr-mb">
+                    <li>商家回复：</li>
+                    <li>感谢您支持，欢迎下次再来！</li>
+                  </ul>-->
+                  <div class="tb-rev-item ">
+                    <div class="J_KgRate_ReviewContent tb-tbcr-content ">{$v.content} </div>
+                    
+              <!-- <ul class="kg-photo-viewer-thumb-bar tb-tbcr-mt">      
+                    <li><img src="//img.alicdn.com/imgextra/i3/193430176691825763/TB2RZXvlpXXXXcdXXXXXXXXXXXX_!!0-rate.jpg_40x40.jpg"></li>
+                     <li><img src="//img.alicdn.com/imgextra/i2/193430176692030181/TB2X14nlpXXXXXtXpXXXXXXXXXX_!!0-rate.jpg_40x40.jpg"></li>
+                      <li><img src="//img.alicdn.com/imgextra/i1/193430176692210753/TB2yNBXlpXXXXbIXpXXXXXXXXXX_!!0-rate.jpg_40x40.jpg"></li>
+                  </ul>--> 
+                    <div class="tb-r-act-bar">
+                      <div class="tb-r-info"> <span class="tb-r-date">{$v.evaltime|date="Y年m月d日 h:i",###}</span> <!-- 颜色：黑色&nbsp;&nbsp;尺码：M --></div>
+                     <!-- <ul class="tb-rev-actions">
+                        <li class="tb-rev-action"> <span class="tb-r-action-btn" title="有 0 人认为此评论有用" data-act="markuseful" data-val="266703854229">有用</span> <span class="J_KgRate_UsefulNum tb-tbcr-num">(0)</span> </li>
+                        <li class="tb-rev-action"> <span class="J_KgRate_Qna tb-r-action-btn">提问</span> </li>
+                      </ul>-->
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="kg-pagination2 thm-1 align-r"></div>
+          </div>
+  </foreach>
+  <div class="kg-rate-alert type-attention tb-tbcr-mt">为了提高浏览体验，仅显示前10条评论！</div>
+        </div>
+      </div>
+    </div>

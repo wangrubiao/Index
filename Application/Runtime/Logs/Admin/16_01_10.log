@@ -1,0 +1,36 @@
+[ 2016-01-10T14:25:48+08:00 ] 127.0.0.1 /range/11111111
+ERR: 无法加载控制器:11111111
+
+[ 2016-01-10T18:52:17+08:00 ] 127.0.0.1 /range/Shop/getip
+ERR: Think\Controller:getIpAddr方法不存在！
+
+[ 2016-01-10T18:52:18+08:00 ] 127.0.0.1 /range/Shop/getip
+ERR: Think\Controller:getIpAddr方法不存在！
+
+[ 2016-01-10T18:52:18+08:00 ] 127.0.0.1 /range/Shop/getip
+ERR: Think\Controller:getIpAddr方法不存在！
+
+[ 2016-01-10T18:52:19+08:00 ] 127.0.0.1 /range/Shop/getip
+ERR: Think\Controller:getIpAddr方法不存在！
+
+[ 2016-01-10T18:52:19+08:00 ] 127.0.0.1 /range/Shop/getip
+ERR: Think\Controller:getIpAddr方法不存在！
+
+[ 2016-01-10T18:52:19+08:00 ] 127.0.0.1 /range/Shop/getip
+ERR: Think\Controller:getIpAddr方法不存在！
+
+[ 2016-01-10T18:52:20+08:00 ] 127.0.0.1 /range/Shop/getip
+ERR: Think\Controller:getIpAddr方法不存在！
+
+[ 2016-01-10T18:52:20+08:00 ] 127.0.0.1 /range/Shop/getip
+ERR: Think\Controller:getIpAddr方法不存在！
+
+[ 2016-01-10T18:52:20+08:00 ] 127.0.0.1 /range/Shop/getip
+ERR: Think\Controller:getIpAddr方法不存在！
+
+[ 2016-01-10T18:52:20+08:00 ] 127.0.0.1 /range/Shop/getip
+ERR: Think\Controller:getIpAddr方法不存在！
+
+[ 2016-01-10T21:17:40+08:00 ] 127.0.0.1 /range/Shop/getip
+ERR: 非法操作:getip
+

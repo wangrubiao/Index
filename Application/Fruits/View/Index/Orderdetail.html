@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- saved from url=(0118)http://my.m.yhd.com/myH5/h5Order/h5OrderDetail.do?orderId=10542542924361&tp=5095.0.1489.0.2.LVHcamM-11-2zduP&ti=CQPGsd -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">                                                                     
+<meta charset="UTF-8">
+<title>订单详情</title>
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="minimal-ui=yes,width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="msapplication-tap-highlight" content="no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="wap-font-scale" content="no">
+<meta name="applicable-device" content="mobile">
+<meta name="tp_page" content="5096.0">
+
+<link href="__PUBLIC__/{$Think.config.projectName}/css/global_site_base.css" rel="stylesheet" type="text/css">
+<link href="__PUBLIC__/{$Think.config.projectName}/css/h5orderDetail.css" rel="stylesheet" type="text/css">
+<body>
+<div id="div_globalHeadAppDown" class="touchweb_com-recommendApps" style="display:none" data-tpa="H5_HOMEPAGE_APPDOWN_NOTICE">
+<img src="./xiangxi_files/new_download_app.png" alt="">
+</div><div class="touchweb-com_header header_flex" id="globalHeader">
+<a id="topIconBack" class="left icon-back" href="javascript:history.go(-1);" data-tpa="H5_GLOBAL_ICON_GOBACK" data-trackersend="1"></a>
+<h1>订单详情</h1>
+<!--<div class="rightBox" data-tpa="H5_GLOBAL_ICON_RIGHTBOX">
+<a class="right" href="javascript:;" id="globalMore" data-tpa="H5_GLOBAL_ICON_MORE">
+<span class="right_text icon-more btn_more">我要评论</span>
+</a>
+<div class="more_list hide" id="globalMoreList" data-tpa="H5_GLOBAL_ICON_MORE_INNER">
+<a href="javascript:cancel(10542542924361);" id="cancelOrder" data-tpa="1257" class="moreA">取消订单</a>
+</div>
+</div>-->
+</div>
+<div class="wrapper">
+<div class="order_module basic_info">
+<p class="module_title">详细信息</p>
+<table class="order_detail_wrapper">
+<tbody><tr>
+<td>订单编号</td>
+<td>{$order.order}</td>
+
+</tr>
+<tr>
+<td>购买时间</td>
+<td>{$order.buytime|date='Y-m-d h:i:s',###}</td>
+</tr>
+<tr>
+<td>购买明细</td>
+<td>
+<p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品名 | 重量/kg | 单价 | 小计</b></p>
+<foreach name="list" item="vo" key="k">
+	<p>{$k+1}、{$vo.name}&nbsp;{$vo.weight}&nbsp;{$vo.price}&nbsp;&nbsp;{$vo.subtotal}</p>
+</foreach>
+
+</td>
+</tr>
+<tr>
+<td>交易积分</td>
+<td class="pay_content">+10</td>
+</tr>
+<tr>
+<td>支付方式</td>
+<td class="pay_content">
+	<switch name="order.payment">
+	<case value="1">现金支付</case>
+	<case value="2">微 信</case>
+	<case value="3">支付宝</case>
+	<default />订单取消
+	</switch>
+</td>
+</tr>
+<tr>
+<td>订单金额</td>
+<td class="amount"><span class="payment">¥{$order.total}</span>
+					<span class="attachment">（优惠：{$order.discount}）</span></td>
+</tr>
+<tr>
+<td>实收金额</td>
+<td class="amount"><span class="payment">¥{$order.receipts}</span><span class="attachment">（应找：{$order.backmey}）</span></td>
+</tr>
+<tr>
+<td colspan="2">
+<a data-tpa="1493" href="#" class="pay_now">返回列表</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<nav></nav>
+</body>
+</html>

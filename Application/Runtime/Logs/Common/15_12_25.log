@@ -1,0 +1,12 @@
+[ 2015-12-25T16:50:08+08:00 ] 127.0.0.1 /admin.php/hont/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+ERR: 无法加载模块:Hont
+
+[ 2015-12-25T16:50:12+08:00 ] 127.0.0.1 /admin.php/hone/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+ERR: 无法加载模块:Hone
+

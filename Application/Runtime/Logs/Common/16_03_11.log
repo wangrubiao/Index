@@ -1,0 +1,282 @@
+[ 2016-03-11T21:36:52+08:00 ] 127.0.0.1 /zh_TW/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000105s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018424s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:34+08:00 ] 127.0.0.1 /zh_TW/img/ios.png?v=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:34+08:00 ] 127.0.0.1 /zh_TW/img/text_zh_TW.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:34+08:00 ] 127.0.0.1 /js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: 无法加载模块:Js
+
+[ 2016-03-11T21:38:35+08:00 ] 127.0.0.1 /zh_TW/img/ic_download2_en.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:35+08:00 ] 127.0.0.1 /zh_TW/img/wechat_logo2967cf.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:35+08:00 ] 127.0.0.1 /zh_TW/img/ic_wp.png?__sprite
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:35+08:00 ] 127.0.0.1 /zh_TW/img/ic_new.png?__sprite
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001467s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:35+08:00 ] 127.0.0.1 /zh_TW/img/ic_facebook.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:35+08:00 ] 127.0.0.1 /zh_TW/img/ic_android.png?__sprite
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001493s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:35+08:00 ] 127.0.0.1 /zh_TW/img/ic_google.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:35+08:00 ] 127.0.0.1 /zh_TW/img/ic_twitter.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:35+08:00 ] 127.0.0.1 /zh_TW/img/ic_more.png?__sprite
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:35+08:00 ] 127.0.0.1 /zh_TW/img/ic_insta.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:35+08:00 ] 127.0.0.1 /zh_TW/img/ic_win.png?__sprite
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:45+08:00 ] 127.0.0.1 /zh_TW/img/ic_download2_en.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:45+08:00 ] 127.0.0.1 /zh_TW/img/ic_android.png?__sprite
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:45+08:00 ] 127.0.0.1 /zh_TW/img/ic_wp.png?__sprite
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:45+08:00 ] 127.0.0.1 /zh_TW/img/ic_new.png?__sprite
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:45+08:00 ] 127.0.0.1 /zh_TW/img/ic_more.png?__sprite
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:45+08:00 ] 127.0.0.1 /zh_TW/img/wechat_logo2967cf.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:45+08:00 ] 127.0.0.1 /zh_TW/img/ic_insta.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:45+08:00 ] 127.0.0.1 /zh_TW/img/ic_google.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:45+08:00 ] 127.0.0.1 /zh_TW/img/ic_twitter.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:45+08:00 ] 127.0.0.1 /zh_TW/img/bg22967cf.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:45+08:00 ] 127.0.0.1 /zh_TW/img/ic_win.png?__sprite
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:48+08:00 ] 127.0.0.1 /js/jquery-1.7.2.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: 无法加载模块:Js
+
+[ 2016-03-11T21:38:48+08:00 ] 127.0.0.1 /zh_TW/img/ios.png?v=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:48+08:00 ] 127.0.0.1 /zh_TW/img/bg22967cf.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:48+08:00 ] 127.0.0.1 /zh_TW/img/ic_android.png?__sprite
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:48+08:00 ] 127.0.0.1 /zh_TW/img/ic_download2_en.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:48+08:00 ] 127.0.0.1 /zh_TW/img/ic_new.png?__sprite
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001453s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:48+08:00 ] 127.0.0.1 /zh_TW/img/ic_google.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:48+08:00 ] 127.0.0.1 /zh_TW/img/ic_more.png?__sprite
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003067s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:48+08:00 ] 127.0.0.1 /zh_TW/img/ic_insta.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:48+08:00 ] 127.0.0.1 /zh_TW/img/ic_win.png?__sprite
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:48+08:00 ] 127.0.0.1 /zh_TW/img/ic_wp.png?__sprite
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:48+08:00 ] 127.0.0.1 /zh_TW/img/ic_twitter.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:48+08:00 ] 127.0.0.1 /zh_TW/img/wechat_logo2967cf.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:51+08:00 ] 127.0.0.1 /zh_TW/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:54+08:00 ] 127.0.0.1 /zh_TW/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:38:58+08:00 ] 127.0.0.1 /zh_TW/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:39:01+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-11T21:39:03+08:00 ] 127.0.0.1 /zh_TW/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:39:10+08:00 ] 127.0.0.1 /zh_TW/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+ERR: 无法加载模块:Zh_TW
+
+[ 2016-03-11T21:39:49+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-11T21:39:50+08:00 ] 127.0.0.1 /Public/Shop/js/notorder.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+ERR: 无法加载模块:Public
+

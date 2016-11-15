@@ -1,0 +1,71 @@
+/*---------------------------------------------------
+   覆盖父样式
+-----------------------------------------------------*/
+#line-chart {
+	height: 300px;
+	width: 800px;
+	margin: 0px auto;
+	margin-top: 1em;
+}
+.brand {
+	font-family: georgia, serif;
+}
+.brand .first {
+	color: #ccc;
+	font-style: italic;
+}
+.brand .second {
+	color: #fff;
+	font-weight: bold;
+}
+.checkPage a {
+	color: red;
+	background: red;
+}
+.pagenNo a {
+	color: #ccc;
+	pointer-events: none;
+}
+.infoNo a {
+	color: #333333;
+	pointer-events: none;
+}
+.current {
+	color: red;
+}
+.table {
+	border: 1px #ccc solid;
+}
+.tr_top {
+	background: #F9F9F9;
+}
+.order_top {
+	background: #EAF8FF;
+	padding-top: 10px;
+}
+.zt {
+	float: left;
+	margin-right: 5px;
+	width: 55px;
+	height: 55px;
+	border: 1px solid #ccc;
+}
+em {
+	display: block;
+	font-style: normal;
+	color: #9E9E9E;
+}
+input[type="checkbox"]{
+  margin: 8px 3px;
+}
+.well{
+  padding-top: 0px;
+}
+.label-info{
+  border: 1px solid #ccc;
+  background: #ffffff;
+  color: #000000;
+}
+.label-info:hover{
+  border: 1px red solid;
+}

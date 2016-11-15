@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>商品采购</title>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/lib/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/stylesheets/theme.css">
+<link rel="stylesheet" href="__PUBLIC__/Admin/lib/font-awesome/css/font-awesome.css">
+<script src="__PUBLIC__/Admin/lib/jquery-1.7.2.min.js" type="text/javascript"></script>
+
+<!-- Demo page code -->
+
+<style type="text/css">
+#line-chart {
+	height: 300px;
+	width: 800px;
+	margin: 0px auto;
+	margin-top: 1em;
+}
+.brand {
+	font-family: georgia, serif;
+}
+.brand .first {
+	color: #ccc;
+	font-style: italic;
+}
+.brand .second {
+	color: #fff;
+	font-weight: bold;
+}
+.checkPage a {
+	color: red;
+	background: red;
+}
+.pagenNo a {
+	color: #ccc;
+	pointer-events: none;
+}
+.infoNo a {
+	color: #333333;
+	pointer-events: none;
+}
+tr:hover {
+	background: #F6F6F6;
+}
+.current {
+	color: red;
+}
+/**模态框**/
+#myMod .modal-body {
+	height: 180px;
+}
+.btn-group {
+	padding-bottom: 10px;
+}
+#modalStock,#modalMey{
+	width: 800px;
+}
+.stockInputA,.stockInputB {
+	width: 40px;
+}
+.modal.small {
+    width: 400px;
+    margin: -245px 0 0 -400px;
+}
+
+.list-group li{
+  float: left;
+  margin-left: 50px;
+  padding: 5px;
+}
+</style>
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="__PUBLIC__/Admin/lib/font-awesome/docs/assets/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="__PUBLIC__/Admin/lib/font-awesome/docs/assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="__PUBLIC__/Admin/assets/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="__PUBLIC__/Admin/lib/font-awesome/docs/assets/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="__PUBLIC__/Admin/lib/font-awesome/docs/assets/ico/apple-touch-icon-57-precomposed.png">
+</head>
+
+<!--[if lt IE 7 ]> <body class="ie ie6"> <![endif]-->
+<!--[if IE 7 ]> <body class="ie ie7 "> <![endif]-->
+<!--[if IE 8 ]> <body class="ie ie8 "> <![endif]-->
+<!--[if IE 9 ]> <body class="ie ie9 "> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<body class="">
+<!--<![endif]-->
+
+<div class="content">
+  <div class="header">
+    <h1 class="page-title">Order</h1>
+  </div>
+  <ul class="breadcrumb">
+    <li><a href="index.html">Home</a> <span class="divider">/</span></li>
+    <li class="active">商品列表</li>
+  </ul>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="btn-toolbar"> 
+        <!--<button class="btn btn-primary"><i class="icon-plus"></i> 新 增</button>
+    <button class="btn">Import</button>
+    <button class="btn">历史成交<font color="red"><b>{$nowSum}</b></font>元&nbsp共<font color="red"><b>{$nowCount}</b></font>单&nbsp均价为<font color="red"><b>{$nowAvg}</b></font>元</button>-->
+        <div class="btn-group"> </div>
+      </div>
+      <div class="well">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>I D</th>
+              <th>商品货号</th>
+              <th>标 题</th>
+              <th>分 类</th>
+              <th>采 购</th>
+              <th>采购记录</th>
+            </tr>
+          </thead>
+          <tbody>
+            <foreach name="list" item="vo">
+              <tr>
+                <td>{$vo.id}</td>
+                <td>{$vo.goods_number}</td>
+                <td class="titleVal">{$vo.title}</td>
+                <td>{$vo.type_name}</td>
+                
+                <td><a href="#" class="stock" id="{$vo.id}" rel="tooltipRight" title="{$vo.register}"><i class="icon-plus"></i></a></td>
+
+                  <td><a href="#" class="noEmpty" id="{$vo.id}"><i class="icon-list-alt"></i></a></td>
+            </foreach>
+          </tbody>
+        </table>
+      </div>
+      <div class="pagination">
+        <ul>
+          {$page}
+        </ul>
+      </div>
+      <footer>
+        <hr>
+        <p class="pull-right">Collect from <a href="#" title="维新" target="_blank">维新</a></p>
+        <p>&copy; 2015 <a href="#" target="_blank">Portnine</a></p>
+      </footer>
+    </div>
+  </div>
+</div>
+
+<!--生成采购单-->
+<div class="modal small hide fade" id="modalStock" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">商品采购</h3>
+  </div>
+  <div class="modal-body"> 
+    <!-- <p class="error-text"><i class="icon-question-sign modal-icon"></i>是否将订单移动到回收站?</p>-->
+    <input name="goodsId" id="goodsId" type="hidden" value=""/>
+    <ul class="list-group">
+    </ul>
+<br/>
+    <div>
+    <textarea></textarea>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button id="stockister" class="btn" data-dismiss="modal" aria-hidden="true">确定</button>
+    <button class="btn btn-danger" data-dismiss="modal">取消</button>
+  </div>
+</div>
+<!--生成采购单 end-->
+<!--模态框提示-->
+<div class="modal fade" id="myModala" tabindex="-1" role="dialog" 
+   aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close refresh" 
+               data-dismiss="modal" aria-hidden="true"> &times; </button>
+        <h4 class="modal-title" id="myModalLabel"> Error </h4>
+      </div>
+      <div class="modal-body modal-bodyTwo"> 
+        <!--弹出层内容--> 
+      </div>
+    </div>
+  </div>
+  <!-- /.modal-content --> 
+</div>
+<!--模态框提示 end -->
+<script src="__PUBLIC__/Admin/lib/bootstrap/js/bootstrap.js"></script> 
+<script type="text/javascript">
+      $(document).ready(function(){
+			$("[rel=tooltip]").tooltip({
+				placement:'left'
+			});
+      $("[rel=tooltipRight]").tooltip({
+        placement:'right'
+      });
+      //alert库存模态框
+      $(".stock").live("click",function(){
+        var url = "{:U('stockEdit')}";
+        var id = $(this).attr("id");
+        $("#goodsId").val(id);
+        //alert(id);
+        //exit;
+        $.post(url,{id:id},function(data){
+          $(".list-group").html(data);
+        });
+        $("#modalStock").modal("show");
+      });
+      //alert库存模态框保存
+      $("#stockister").live("click",function(){
+        var url = "{:U('stockEditCheck')}";
+        var id = $("#goodsId").val();
+         var focus_input = $(".list-group li");
+         var strArr= new Array();
+         focus_input.each(function(index){
+            var aaa = $(this).attr("class");
+            strArr[index]= {
+                            "focus_id" : $("."+aaa+" .stockInputA").attr("id"),
+                            "quantity" : $("."+aaa+" .stockInputA").val(),
+                            "buying"   : $("."+aaa+" .stockInputB").val(),
+                            "stock_type"   : $("."+aaa+" .stockInputB").data("type"),
+                            "sumMey"   : $("."+aaa+" .stockInputA").val()*$("."+aaa+" .stockInputB").val(),
+                          };
+         });
+        $.post(url,{id:id,val:strArr},function(data){
+          if(data["status"]){
+            $.bShow("保存成功");
+          }else{
+            $.bShow("保存失败");
+          }
+        });
+      });
+
+       //该函数主要是当提示框提示完成确定后刷新
+      $(".refresh").live("click",function(){
+          location.reload();
+      });
+			$.bShow = function(data){
+				//弹出层样式 && 弹出内容
+				$(".modal-title").text("提示");
+				$("#myModala").css({
+					width: 'auto',
+					'margin-left': function () {
+					return -($(this).width() / 2);
+					}
+				});
+				$(".modal-bodyTwo").text(data);
+				$("#myModala").modal("show");
+			};
+    });
+		
+		
+    </script>
+</body>
+</html>
