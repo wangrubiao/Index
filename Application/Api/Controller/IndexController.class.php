@@ -1,14 +1,27 @@
 <?php
+
+// +----------------------------------------------------------------------
+// | W+ [ Not the same fireworks ]
+// +----------------------------------------------------------------------
+// | Describe: api鉴权类
+// +----------------------------------------------------------------------
+// | Time: 2016/11/15
+// +----------------------------------------------------------------------
+// | Author: 64941334@qq.com
+// +----------------------------------------------------------------------
+
 namespace Api\Controller;
 use Think\Controller;
 class IndexController extends Controller {
 	
-	private $userid;  //用户账号
+	private $username;  //用户账号
 	private $token; //客户端key
 	private $pctime; //客户端提交时间
 	
-	private $key;  //服务端key
+	public $uid;  //请求api的会员ID
 	private $model; //模型类
+	
+	
 	
 	/**
 	* 构造函数
@@ -16,9 +29,11 @@ class IndexController extends Controller {
 	protected function _initialize()
 	{
 		extract(I());
-		header('content-type:application/json;charset=utf8');
+		//header('content-type:application/json;charset=utf8');
+		
+		header("Content-type: text/html; charset=utf-8");
 		//接收客户端数据初始化
-		$this->userid = $userid;
+		$this->username = $username;
 		$this->token = $token;
 		$this->pctime = substr($token,-12)/74;
 
@@ -30,12 +45,15 @@ class IndexController extends Controller {
 			exit;
 		}
 	}
+	/**
+	 * 鉴权调试检查
+	 */
 	public function index(){
 		echo $this->sign(); //授权通过提示
 	}
 	/**
-	* 用户登录
-	*/
+	* 用户登录 api
+	
 	public function login(){
 		extract(I());
 		//echo md5($pwd);
@@ -51,11 +69,11 @@ class IndexController extends Controller {
 						);
 		}
 		echo json_encode($arr, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT);  
-	}
+	}*/
 	/**
-	* 会员资料
+	* 会员资料 api
 	* 参数 current_user 为要查询的会员账号
-	*/
+	
 	public function getUserInfo()
 	{	
 		extract(I());
@@ -71,14 +89,14 @@ class IndexController extends Controller {
 		}
 		echo json_encode($arr, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT);  
 	}
-	
+	*/
 	/**
 	* api鉴权
 	*/
 	private function sign()
 	{
-		$val['userid'] = array('eq',$this->userid);
-		$result= M('Member')->where($val)->select();
+		$val['username'] = array('eq',$this->username);
+		$result= M('zmx_member')->where($val)->select();
 		//请求超时 每次限时10秒
 		if((time()-$this->pctime)>10){
 			$arr = array(
@@ -102,15 +120,16 @@ class IndexController extends Controller {
 							'msg'=>'签名成功' 
 						);
 		}
+		$this->uid = $result[0]['uid'];
 		return json_encode($arr, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT);
 	}
 	/**
 	* Token效验
 	*/
 	private function is_token(){
-		$val['userid'] = array('eq',$this->userid);
-		$result= M('Member')->where($val)->select();
-		$tokenServer = md5($result[0]['userid']."javaANDphp").($this->pctime*74);
+		$val['username'] = array('eq',$this->username);
+		$result= M('zmx_member')->where($val)->select();
+		$tokenServer = md5($result[0]['username']."javaANDphp").($this->pctime*74);
 		if($this->token != $tokenServer){
 			return false;
 		}else{

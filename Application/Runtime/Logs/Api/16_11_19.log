@@ -1,0 +1,48 @@
+[ 2016-11-19T10:27:42+08:00 ] 127.0.0.1 /api.php/api/user/square
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php on line 31 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `w_zmx_member` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = 'wangrubiao'  [ RunTime:0.0149s ]
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = 'wangrubiao'  [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Api\Controller\UserController.class.php on line 323 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `w_zmx_say` [ RunTime:0.0033s ]
+SQL: SELECT `uid`,`title`,`describe`,`money`,`status`,`totaldays`,`scontent`,`pubtime`,`likes`,`comment` FROM `w_zmx_say` INNER JOIN w_zmx_plan ON w_zmx_say.pid = w_zmx_plan.pid  WHERE ( status = 1 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-11-19T10:27:58+08:00 ] 127.0.0.1 /api.php/api/user/square
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php on line 31 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `w_zmx_member` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = 'wangrubiao'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = 'wangrubiao'  [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Api\Controller\UserController.class.php on line 323 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `w_zmx_say` [ RunTime:0.0034s ]
+SQL: SELECT `uid`,`title`,`describe`,`money`,`status`,`totaldays`,`scontent`,`pubtime`,`likes`,`comment` FROM `w_zmx_say` INNER JOIN w_zmx_plan ON w_zmx_say.pid = w_zmx_plan.pid  WHERE ( status = 1 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+

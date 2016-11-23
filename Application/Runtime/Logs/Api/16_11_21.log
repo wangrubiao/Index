@@ -1,0 +1,378 @@
+[ 2016-11-21T14:49:23+08:00 ] 127.0.0.1 /api.php/api/user/imgAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.050095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014493s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php on line 31 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined variable: username E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `w_zmx_member` [ RunTime:0.1548s ]
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0092s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+
+[ 2016-11-21T14:49:26+08:00 ] 127.0.0.1 /api.php/api/user/imgAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php on line 31 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined variable: username E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `w_zmx_member` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+
+[ 2016-11-21T14:50:21+08:00 ] 127.0.0.1 /api.php/api/user/imgAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php on line 31 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined variable: username E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `w_zmx_member` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+
+[ 2016-11-21T14:50:25+08:00 ] 127.0.0.1 /api.php/api/user/imgAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php on line 31 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined variable: username E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `w_zmx_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+
+[ 2016-11-21T14:50:34+08:00 ] 127.0.0.1 /api.php/api/user/imgAdd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php on line 31 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined variable: username E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `w_zmx_member` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+
+[ 2016-11-21T14:51:17+08:00 ] 127.0.0.1 /api.php/api/user/getPlan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php on line 31 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined variable: username E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `w_zmx_member` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+
+[ 2016-11-21T14:51:36+08:00 ] 127.0.0.1 /api.php/api/user/getPlan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php on line 31 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined variable: username E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `w_zmx_member` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+
+[ 2016-11-21T14:51:52+08:00 ] 127.0.0.1 /api.php/api/user/getPlan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php on line 31 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined variable: username E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `w_zmx_member` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+
+[ 2016-11-21T14:51:54+08:00 ] 127.0.0.1 /api.php/api/user/getPlan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php on line 31 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined variable: username E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `w_zmx_member` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+
+[ 2016-11-21T14:52:48+08:00 ] 127.0.0.1 /api.php/api/user/getPlan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php on line 31 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined variable: username E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `w_zmx_member` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+
+[ 2016-11-21T14:52:49+08:00 ] 127.0.0.1 /api.php/api/user/getPlan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php on line 31 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined variable: username E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `w_zmx_member` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+
+[ 2016-11-21T14:52:50+08:00 ] 127.0.0.1 /api.php/api/user/getPlan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php on line 31 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined variable: username E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `w_zmx_member` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+
+[ 2016-11-21T14:59:59+08:00 ] 127.0.0.1 /api.php/api/user/getPlan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php on line 31 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined variable: username E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `w_zmx_member` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+
+[ 2016-11-21T15:00:03+08:00 ] 127.0.0.1 /api.php/api/user/getPlan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php on line 31 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined variable: username E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: token E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `w_zmx_member` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Trying to get property of non-object E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 40 行.
+SQL: SELECT * FROM `w_zmx_member` WHERE `username` = null  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 121 行.
+NOTIC: [8] Use of undefined constant JSON_UNESCAPED_UNICODE - assumed 'JSON_UNESCAPED_UNICODE' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [8] Use of undefined constant JSON_PRETTY_PRINT - assumed 'JSON_PRETTY_PRINT' E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+NOTIC: [2] json_encode() expects parameter 2 to be long, string given E:\wamp\www\weChat\Application\Api\Controller\IndexController.class.php 第 122 行.
+
