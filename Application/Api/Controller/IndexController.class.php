@@ -30,7 +30,7 @@ class IndexController extends Controller {
 	{
 		extract(I());
 		//p(I());
-		echo "至少看到这里...";
+		//echo "至少看到这里...";
 		//header('content-type:application/json;charset=utf8');
 		
 		header("Content-type: text/html; charset=utf-8");
