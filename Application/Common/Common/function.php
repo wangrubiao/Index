@@ -1,16 +1,24 @@
 <?php
-/********
-*P函数
-*/
+/**
+ *日期检查
+ *格式：xxxx-xx-xx
+ */
+function isDate($dateString) {
+    return strtotime( date('Y-m-d', strtotime($dateString)) ) === strtotime( $dateString );
+}
 function P($arr){
 	echo "<pre>";
     return var_dump($arr);
 }
-/********
-*PHP5.5以上的版本支持array_column函数
-*为了兼容低版本自定义该函数
-*在5.5版本中可以删除该函数，直接调用array_column系统函数
-*/
+function Pr($arr){
+	echo "<pre>";
+    return print_r($arr);
+}
+/**
+ *PHP5.5以上的版本支持array_column函数
+ *为了兼容低版本自定义该函数
+ *在5.5版本中可以删除该函数，直接调用array_column系统函数
+ */
 function i_array_column($input, $columnKey, $indexKey=null){
     if(!function_exists('array_column')){ 
         $columnKeyIsNumber  = (is_numeric($columnKey))?true:false; 
@@ -48,9 +56,9 @@ function i_array_column($input, $columnKey, $indexKey=null){
     $result = md5(md5($str.$val));
     return $result;
 }
-/********
-*获取IP地址
-*/
+/**
+ *获取IP地址 (采用Thinkphp自带的ip库)
+ */
 function getIpAddr($clientIP){
     import('ORG.Net.IpLocation');
     $Ip = new \Org\Net\IpLocation('UTFWry.dat');
@@ -89,6 +97,8 @@ function JPush($type,$array) {
     Vendor('JPush.JPush');
     $app_key = '179239acc86455b18a78ab71';
     $master_secret = '4089dab4bfbb04e7f1cbd2bf';
+	//$app_key = 'cb3f38e407c56b85feb5a512';
+    //$master_secret = '43bb0e9a29b37f28e4c1138a';
     $client = new JPush($app_key, $master_secret);
     $log_path = null;
     $max_retry_times = null;
@@ -101,11 +111,29 @@ function JPush($type,$array) {
     $push->setAudience('all');
 
     $push->setMessage($msg_content = $type,$title=null, $content_type=null, $extras=$array);
-    
-    $push->setOptions($sendno=null, $time_to_live=864000, $override_msg_id=null, $apns_production=null, $big_push_duration=null);
-
     $push->build();
     //$push->printJSON();
+    $push->send();
+}
+/********
+*坚持App 推送
+*参数1：标识(区分推送的类型)
+*参数2：推送的内容array方式
+*客户资料格式：array("name"=>"客户@李斯", "mob"=>"13570454547","color"=>"黄色","size"=>"170/M")
+*/
+function JPushApp($type,$user,$json) {
+    Vendor('JPush.JPush');
+	$app_key = 'cb3f38e407c56b85feb5a512';
+    $master_secret = '43bb0e9a29b37f28e4c1138a';
+    $client = new JPush($app_key, $master_secret);
+    $log_path = null;
+    $max_retry_times = null;
+    $client = new JPush($app_key, $master_secret, $log_path, $max_retry_times);
+
+    $push = $client->push();
+    $push->setPlatform('all');
+    $push->addAlias($user);
+    $push->setMessage($msg_conten=$json,$title=null, $content_type=$type, $extras=null);
     $push->send();
 }
 /********

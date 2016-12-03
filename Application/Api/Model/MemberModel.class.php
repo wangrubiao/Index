@@ -16,17 +16,6 @@ class MemberModel extends Model{
 	 public function index(){
 		echo "模型的方法";
 	 }
-	 /**
-	 * 返回用户信息
-	 */
-	 
-	 $val['userid'] = array('eq','admin');
-		$result= M('Member')\
-		->where($val)
-		join(wefdwefwefwef)
-		join(wefdwefwefwef)
-		join(wefdwefwefwef)
-		->select();
 		
 	 public function userInfo(){
 		$val['userid'] = array('eq',$userid);

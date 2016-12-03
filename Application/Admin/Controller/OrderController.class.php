@@ -201,6 +201,7 @@ class OrderController extends CommonController {
 		}
 		*/
 		//客户号码推送
+		//客户号码推送
 		$nameID = substr($mob,-4);
 		JPush("number",array("name"=>"客户@".$name."@".$nameID, "mob"=>($mob-365)));
 		
@@ -370,19 +371,13 @@ class OrderController extends CommonController {
 		$Page -> setConfig('theme','%HEADER% %UP_PAGE% %LINK_PAGE% %DOWN_PAGE%');
 		$show = $Page->show();
 		//数据输出
-		$list = $Order->where('wx_order.type=1 and wx_goods_picture.sort=1')
-		->field('wx_order.id,wx_order.goods_id,wx_order.order,wx_order.order_title,wx_order.type,wx_order.product_img,
-				wx_order.product,wx_order.size,wx_order.consignee,wx_order.mob,wx_order.address,wx_order.mey,wx_order.paytype,wx_order.paystate,
-				wx_order.guest,wx_order.ip,wx_order.countip,wx_order.position,wx_order.register,
-				wx_bid_rule.rule_name,wx_bid_ressize.describe,wx_bid_ressize.size_val,wx_bid_resources.rsename,wx_bid_platform.platname,
-				wx_goods_picture.img_url
-				')
-		->join('wx_goods_picture ON wx_order.goods_id = wx_goods_picture.img_id','LEFT')
-		->join('wx_bid_rule ON wx_order.position = wx_bid_rule.rule_name','LEFT')
-		->join('wx_bid_ressize ON wx_bid_rule.size_id = wx_bid_ressize.id','LEFT')
-		->join('wx_bid_resources ON wx_bid_ressize.rsenid = wx_bid_resources.id','LEFT')
-		->join('wx_bid_platform ON wx_bid_resources.platform_id = wx_bid_platform.id','LEFT')
-		->order('wx_order.id desc')
+		$list = $Order
+		->alias('o')
+		->where('o.type=0')
+		->field('o.id,o.order,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,
+			o.express,o.waybill,o.register,o.sendtime')
+		//->join('__ADMIN__ ON o.uid = __ADMIN__.id')
+		->order('o.id desc')
 		->limit($Page->firstRow.','.$Page->listRows)
 		->select();
 		//快递选择输出
@@ -534,22 +529,12 @@ class OrderController extends CommonController {
 		$this->assign('info',$result[0]);
 		$this->display('Index/Order/orderPrint');
 	}
-	/*****
-	*信息推送
-	*/
-	public function pushInfo($name,$mob,$type) 
+	public function add() 
 	{
-
-		$nameID = substr($mob,-4);
-		if($type == 1){
-			$name = "客户@".$name."@".$nameID;
-		}elseif($type == 0){
-			$name = "失败@".$name."@".$nameID;
-		}else{
-			$name = "推广@".$name."@".$nameID;
-		}
-		JPush("number",array("name"=>$name, "mob"=>($mob-365)));
-		$data['status'] = 1;
-		$this->ajaxReturn($data);
+    	if(SendMail('64941334@qq.com','标题','内容')) {
+    	    $this->success('发送成功！');
+   		} else {
+    	    $this->error('发送失败');
+   		}
 	}
 }

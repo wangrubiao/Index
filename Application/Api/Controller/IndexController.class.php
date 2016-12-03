@@ -29,6 +29,8 @@ class IndexController extends Controller {
 	protected function _initialize()
 	{
 		extract(I());
+		//p(I());
+		//echo "至少看到这里...";
 		//header('content-type:application/json;charset=utf8');
 		
 		header("Content-type: text/html; charset=utf-8");
@@ -98,7 +100,7 @@ class IndexController extends Controller {
 		$val['username'] = array('eq',$this->username);
 		$result= M('zmx_member')->where($val)->select();
 		//请求超时 每次限时10秒
-		if((time()-$this->pctime)>10){
+		if((time()-$this->pctime)>10000){
 			$arr = array(
 							'code'=>'2001',
 							'msg'=>'请求超时' 

@@ -3,12 +3,12 @@ return array(
 	//配置 禁止访问目录
 	'MODULE_DENY_LIST'=>array('Runtime','Common'),
 	
-	//PDO连接方式
+	 //PDO连接方式
 	'DB_TYPE'      =>  'mysql',     // 数据库类型
-	'DB_HOST'      =>  'localhost',     // 服务器地址
-	'DB_NAME'      =>  'weixin',     // 数据库名
-	'DB_USER'      =>  'root',     // 用户名
-	'DB_PWD'       =>  '',     // 密码
+	'DB_HOST'      =>  '120.24.186.143',     // 服务器地址
+	'DB_NAME'      =>  'fruits',     // 数据库名
+	'DB_USER'      =>  'fruits',     // 用户名
+	'DB_PWD'       =>  '06291013',     // 密码
 	'DB_PORT'      =>  '',     // 端口
 	'DB_PREFIX'    =>  'wx_',     // 数据库表前缀
 	'DB_DSN'       =>  '',     // 数据库连接DSN 用于PDO方式

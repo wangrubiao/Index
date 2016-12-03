@@ -12,8 +12,8 @@
 
 namespace Api\Controller;
 use Think\Controller;
-class UserController extends Controller {
-//class UserController extends IndexController {
+//class UserController extends Controller {
+class UserController extends IndexController {
 	/**
 	* 登陆api
 	*/
@@ -21,10 +21,14 @@ class UserController extends Controller {
 		extract(I());
 		//echo md5($pwd);
 		$val['username'] = array('eq',$username);
-		$val['pwd'] = array('eq',md5($pwd));
+		$val['password'] = array('eq',$password);
 		$result= M('zmx_member')->where($val)->select();
 		if($result){
-			$arr = $result;
+			$arr = array(
+					'code' => '200',
+					'msg' => 'success',
+					'data'=>$result[0]
+			);
 		}else{
 			$arr = array(
 						'code'=>'4002',
@@ -43,7 +47,11 @@ class UserController extends Controller {
 		$val['username'] = array('eq',$current_user);
 		$result= M('zmx_member')->where($val)->select();
 		if($result){
-			$arr = $result;
+			$arr = array(
+					'code' => '200',
+					'msg' => 'success',
+					'data'=>$result[0]
+			);
 		}else{
 			$arr = array(
 						'code'=>'3002',
@@ -109,6 +117,7 @@ class UserController extends Controller {
 		}
 		$result= M('zmx_plan')->add($data);
 		if($result){
+			M('zmx_member')->where('uid = '.$this->uid)->setInc('plan');
 			$arr = array(
 					'code'=>'6000',
 					'msg'=>'计划创建成功'
@@ -122,18 +131,25 @@ class UserController extends Controller {
 	public function getPlan()
 	{
 		extract(I());
+		
+		
+		
 		$where['uid'] = array('eq',$this->uid);
 		$where['status'] = array('eq',$status);
 		$result = M('zmx_plan')->fetchSql(0)->where($where)->select();
 		if($result){
-			//p($result);
-			$arr = $result;
+			$arr = array(
+					'code' => '200',
+					'msg' => 'success',
+					'data'=>$result
+					);
 		}else{
 			$arr = array(
 					'code'=>'6006',
 					'msg'=>'计划列表为空'
 			);
 		};
+		//$this->ajaxReturn($arr);
 		echo json_encode($arr, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT);
 	}
 	/**
@@ -142,22 +158,6 @@ class UserController extends Controller {
 	public function addSay()
 	{
 		extract(I());
-		
-		//设置文件上传
-		$upload = new \Think\Upload();// 实例化上传类
-		$upload->maxSize   =     3145728 ;// 设置附件上传大小
-		$upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
-		$upload->rootPath  =     'uploads/'; // 设置附件上传根目录
-		$upload->savePath  =     ''; // 设置附件上传（子）目录
-		// 上传文件
-		$info   =   $upload->upload();
-		if($info){
-			foreach($info as $file){
-				$img[] = $file['savepath'].$file['savename'];
-			}
-		}
-		$str = implode(',',$img);
-		//echo $str;
 		$where['pid'] = array('eq',$pid);
 		$result = M('zmx_plan')->fetchSql(0)->where($where)->select();
 		if(!$result){
@@ -181,6 +181,21 @@ class UserController extends Controller {
 					'msg'=>'重复坚持'
 			);
 		}else{
+			//设置文件上传
+			$upload = new \Think\Upload();// 实例化上传类
+			$upload->maxSize   =     3145728 ;// 设置附件上传大小
+			$upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
+			$upload->rootPath  =     'uploads/'; // 设置附件上传根目录
+			$upload->savePath  =     ''; // 设置附件上传（子）目录
+			// 上传文件
+			$info   =   $upload->upload();
+			//P($info);
+			if($info){
+				foreach($info as $file){
+					$img[] = $file['savepath'].$file['savename'];
+				}
+			}
+			$str = implode(',',$img);
 			//发布成功
 			$data['pid'] = $pid;
 			$data['scontent'] = $scontent;
@@ -303,7 +318,9 @@ class UserController extends Controller {
 			die(json_encode($arr, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT));
 		}
 		$where['sid'] = $sid;
-		$result = M('zmx_comment')->where($where)->order('commtime desc')->select();
+		$result = M('zmx_comment')
+		->join('__ZMX_MEMBER__ ON __ZMX_COMMENT__.uid = __ZMX_MEMBER__.uid')
+		->where($where)->order('commtime desc')->select();
 		foreach($result as $kvo=>$vo){
 				if($vo['fid'] == 0){
 					$list[] = array(
@@ -312,7 +329,11 @@ class UserController extends Controller {
 							'uid' => $vo['uid'],
 							'fid' => $vo['fid'],
 							'content' => $vo['content'],
-							'commtime' => $vo['commtime']
+							'commtime' => date('Y-m-d h:i:s',$vo['commtime']),
+							//会员表信息
+							'name' => $vo['name'],
+							'face' => $vo['face']
+							
 							
 					);		
 				}
@@ -337,29 +358,202 @@ class UserController extends Controller {
 	public function square()
 	{
 		extract(I());
-		//$type
-		 $result = M('zmx_say')
-		->where('status = 1')
-		->field('uid,title,describe,money,status,totaldays,
-				scontent,pubtime,likes,comment,img
-				')
-		->join('__ZMX_PLAN__ ON __ZMX_SAY__.pid = __ZMX_PLAN__.pid')
-		->select();
+		if($type == 1){
+			//最新
+			$sort = 'pubtime';
+		}else if($type == 2){
+			//热门
+			$sort = 'likes';
+		}else{
+			//最多
+			$sort = 'comment';
+		}
+		$count = M('zmx_say')->count();  //记录总数
+		$num = ceil($count/2); //返回总页数
+		$thisPage = ($page-1)*2;   //返回条数
 		
+		$result = M('zmx_plan')
+		->field('
+				w_zmx_member.uid, w_zmx_member.name, w_zmx_member.face,w_zmx_member.username,
+				w_zmx_plan.status, w_zmx_plan.pid, w_zmx_plan.totaldays,
+				w_zmx_say.sid, w_zmx_say.scontent, w_zmx_say.img, w_zmx_say.pubtime, w_zmx_say.likes, w_zmx_say.comment
+				')
+		->join('__ZMX_MEMBER__ ON __ZMX_PLAN__.uid = __ZMX_MEMBER__.uid')
+		->join('__ZMX_SAY__ ON __ZMX_PLAN__.pid = __ZMX_SAY__.pid')
+		->order($sort.' desc')
+		->limit($thisPage,2)
+		->select();
+		//获取说说SID 组成数组
 		foreach ($result as $key=>$vo){
-			if(!empty($vo['img'])){
-				$img = explode(',',$vo['img']);
-				foreach ($img as $v){
-					unset($result[$key]['img']);
-					$result[$key]['imgs'][] = $v;
-				}
+			$list[] = $vo['sid'];
+			if($result[$key][img] != null){
+				$result[$key][img] = explode(',',$vo['img']);
+			}else{
+				$result[$key][img] = '';
 			}
 			
 		}
-		p($result);
-		echo json_encode($result, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT);
-		///////////////////////
-
+		//根据SID查询返回点赞集
+		$where['sid'] = array('in',$list==null?'0':$list);
+		$likes = M('zmx_likes')->field('sid,uid,likestime,lface')->where($where)->select();
+		if(count($likes) >= 1){
+			//点赞集合归类到说说数组
+			foreach($likes as $key=>$vo){
+				foreach($result as $k=>$v){
+					if($v['sid'] == $vo['sid']){
+						$result[$k]['dz'][] = $likes[$key];
+					}
+				}
+			}
+		}else{
+			//如果当前页的说说没有被点赞记录
+			foreach ($result as $key=>$vo){
+				$result[$key]['dz'] = '';
+			}
+		}
+		$arr = array(
+				'code' => '200',
+				'msg' => 'success',
+				'num' => $num,
+				'data'=>$result
+		);
+		echo json_encode($arr, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT);
+	}
+	/**
+	 * 广场列表数据
+	 * @access public
+	 * @param  int      $type   (1:最新发布,2:最多浏览,3:最多回复)
+	 * @return array    该方法已经抛弃，可以删除
+	 */
+	public function squareaxxxxxxxxxxxxxxx()
+	{
+		extract(I());
+		if($type == 1){
+			//最新
+			$sort = 'pubtime';
+		}else if($type == 2){
+			//热门
+			$sort = 'likes';
+		}else{
+			//最多
+			$sort = 'comment';
+		}
+		
+		$count = M('zmx_say')->count();  //记录总数
+		$num = ceil($count/2); //返回总页数
+		$thisPage = ($page-1)*2;   //返回条数
+		
+		echo "真实条数".$zcount."<br>";
+		echo "总条数".$count."<br>";
+		echo "共有".$num."页<br>";
+		echo "当前第".$page."页<br>";
+		p($thisPage);
+		$result = M('zmx_plan')
+		->field('
+				w_zmx_member.uid, w_zmx_member.name, w_zmx_member.face,
+				w_zmx_plan.status, w_zmx_plan.pid, w_zmx_plan.totaldays,
+				w_zmx_say.sid, w_zmx_say.scontent, w_zmx_say.img, w_zmx_say.pubtime, w_zmx_say.likes, w_zmx_say.comment,
+				w_zmx_likes.uid as l_uid,w_zmx_likes.likestime as l_time,w_zmx_likes.lface
+				')
+		->join('__ZMX_MEMBER__ ON __ZMX_PLAN__.uid = __ZMX_MEMBER__.uid')
+		->join('__ZMX_SAY__ ON __ZMX_PLAN__.pid = __ZMX_SAY__.pid')
+		->join('LEFT JOIN __ZMX_LIKES__ ON __ZMX_SAY__.sid = __ZMX_LIKES__.sid')		
+		->order($sort.' desc')
+		->limit($thisPage,2)
+		->select();
+		//获取点赞数组
+		foreach ($result as $key=>$item){
+			foreach ($result as $k=>$vo){
+					if($item['sid'] == $vo['sid']){
+						//unset($result['']);
+						if($vo['l_uid'] != null){
+							$result[$key]['dz'][] = array('uid'=>$vo['l_uid'],'time'=>$vo['l_time'],'face'=>$vo['lface']);
+						}else{
+							$result[$key]['dz'] = '';
+						}
+						
+					}
+			}
+		}
+		$list = array();
+		foreach($result as $key=>$v){
+			unset($result[$key]['l_uid']);
+			unset($result[$key]['l_time']);
+			unset($result[$key]['lface']);
+			$list[$v['sid']] = $result[$key];
+		}
+		
+		$list = array_merge($list); //重新排序数组
+		//图文图片
+		foreach ($list as $key=>$vo){
+			if(!empty($vo['img'])){
+				$img = explode(',',$vo['img']);
+				foreach ($img as $v){
+					unset($list[$key]['img']);
+					$list[$key]['imgs'][] = $v;
+				}
+			}else{
+				$list[$key]['imgs'] = '';
+				unset($list[$key]['img']);
+			}
+		}
+		$arr = array(
+				'code' => '200',
+				'msg' => 'success',
+				'data'=>$list
+		);
+		echo json_encode($arr, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT);
+		
+	}
+	public function follow(){
+		extract(I());
+		if(empty($called) or empty($type))
+		{
+			$arr = array(
+					'code' => '80003',
+					'msg' => '参数不完整'
+			);
+		}else if($this->uid == $called){
+			$arr = array(
+					'code' => '80004',
+					'msg' => '不能关注自己'
+			);
+		}else if($type == 'follow'){
+			//关注别人
+			$data['calling'] = $this->uid;
+			$data['called'] = $called; //被关注人ID
+			$result = M('zmx_follow')->where($data)->find();
+			if(!$result){
+				M('zmx_follow')->add($data);
+				M('zmx_member')->where('uid = '.$this->uid)->setInc('calling');
+				M('zmx_member')->where('uid = '.$called)->setInc('called');
+				$arr = array(
+						'code' => '200',
+						'msg' => '关注成功'
+				);
+			}else{
+				//不能重复关注
+				$arr = array(
+						'code' => '80001',
+						'msg' => '请勿重复关注'
+				);
+			}
+			
+		}else if($type == 'cancel'){
+			//取消关注
+			$where['calling'] = array('eq',$this->uid);
+			$where['called'] = array('eq',$called);
+			M('zmx_follow')->where($where)->delete();
+			M('zmx_member')->where('uid = '.$this->uid)->setDec('calling');
+			M('zmx_member')->where('uid = '.$called)->setDec('called');
+			$arr = array(
+					'code' => '80002',
+					'msg' => '取消关注成功'
+			);
+		}else{
+			
+		}
+		echo json_encode($arr, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT);
 	}
 	/**
 	 * 检查说说是否存在

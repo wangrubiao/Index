@@ -2,13 +2,14 @@
 
 $code = $_GET;
 p($code);
-//exit;
+echo "这是回调页面！wxb";
+exit;
 
 $getInfo =  getWxAccessToken($code['code']); //获取access_token
 
 getWxInfo($getInfo);
 
-echo "<img src='http://wx.qlogo.cn/mmopen/SBRsfnp03sFaCXsbL9B2Paw8c5ZbG44msohJkq02gDJh7xQQic9WCvWTia9gXjHPEyjUtLZRLsR8147JvicjkTKrWGUAoX5gicWC/0' width='45' height='45'/>";
+//echo "<img src='http://wx.qlogo.cn/mmopen/SBRsfnp03sFaCXsbL9B2Paw8c5ZbG44msohJkq02gDJh7xQQic9WCvWTia9gXjHPEyjUtLZRLsR8147JvicjkTKrWGUAoX5gicWC/0' width='45' height='45'/>";
 
 function getWxAccessToken($code){
 		/***
@@ -28,7 +29,7 @@ function getWxAccessToken($code){
 			var_dump( curl_error($ch) );
 		}
 		$arr = json_decode($res, true);
-		//p($arr);
+		p($arr);
 		return $arr;
 	}
 function getWxInfo($arr){
