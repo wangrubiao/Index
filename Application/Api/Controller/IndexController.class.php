@@ -29,8 +29,8 @@ class IndexController extends Controller {
 	protected function _initialize()
 	{
 		extract(I());
-        //p(I());
-		//echo "至少看到这里...";
+		//p(I());
+		echo "至少看到这里...";
 		//header('content-type:application/json;charset=utf8');
 		
 		header("Content-type: text/html; charset=utf-8");

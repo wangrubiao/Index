@@ -1,0 +1,18 @@
+[ 2015-12-31T17:19:34+08:00 ] 127.0.0.1 /index.php/shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001178s ]
+ERR: 无法加载模块:Shop
+
+[ 2015-12-31T17:19:39+08:00 ] 127.0.0.1 /index.php/index/shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:Index
+
+[ 2015-12-31T17:19:43+08:00 ] 127.0.0.1 /index.php/Index/shop
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+ERR: 无法加载模块:Index
+

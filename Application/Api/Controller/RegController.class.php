@@ -13,6 +13,53 @@
 namespace Api\Controller;
 use Think\Controller;
 class RegController extends Controller {
+
+    public $uid;  //请求api的会员ID
+
+    /**
+     * 构造函数
+     */
+    public function _initialize(){
+        extract(I());
+        $val['username'] = array('eq',$username);
+        $result= M('zmx_member')->where($val)->select();
+        if($result){
+            $this->uid = $result[0]['uid'];
+        }else{
+            $this->uid = null;
+        }
+        //echo $this->uid;
+    }
+    /**
+     * 定时脚本
+     * 每天更新计划状态 统计金额
+     */
+    public function timing(){
+
+       /* $filename = 'log.txt';
+        $word = "写入成功.时间是：".date('Y-m-d H:i:s')."\r\n";  //双引号会换行 单引号不换行
+        file_put_contents($filename, $word,FILE_APPEND);
+        exit;
+       */
+        //根据条件查询出主键ID
+        $where['status'] = array('in','0,1');
+        $where['signtime'] = array('LT',strtotime(date('Y-m-d'))); //LT表达式小于
+        $data['status'] = 3;
+
+        $result = M('zmx_plan')
+            ->field(array('pid'))
+            ->where($where)
+            ->select();
+        //p($result);
+        //p(implode(',',i_array_column($result,'pid')));
+
+
+        //修改计划状态
+        $result = M('zmx_plan')
+           // ->fetchSql(true)
+            ->where($where)
+            ->save($data);
+    }
 	/**
 	 * 金额设置
 	 */
@@ -178,13 +225,23 @@ class RegController extends Controller {
 					//根据SID查询返回点赞集
 					$where['sid'] = array('in',$list==null?'0':$list);
 					$likes = M('zmx_likes')->field('sid,uid,likestime,lface')->where($where)->select();
+                    //p($result);
 					if(count($likes) >= 1){
 						//点赞集合归类到说说数组
 						foreach($likes as $key=>$vo){
 							foreach($result as $k=>$v){
 								if($v['sid'] == $vo['sid']){
 									$result[$k]['dz'][] = $likes[$key];
+                                    if($this->uid == null){
+                                        //$result[$k]['dz'][] = $likes[$key];
+                                        $result[$k]['result'] = 0; //该用户未点缀此说说
+                                    }else if($vo['uid'] == $this->uid){
+                                        $result[$k]['result'] = 1; //该用户未已点缀此说说
+                                    }else{
+                                        $result[$k]['result'] = 0; //该用户未点缀此说说
+                                    }
 								}
+
 							}
 						}
 					}else{

@@ -1,0 +1,113 @@
+[ 2016-01-16T10:58:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000329s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000566s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-01-16T23:27:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2016-01-16T23:28:18+08:00 ] 127.0.0.1 /Shop/Index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004670s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 22 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0142s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `ip` = '127.0.0.1' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 36 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: INSERT INTO `wx_order` (`order`,`product`,`size`,`mob`,`address`,`mey`,`guest`,`ip`,`countip`) VALUES ('1452958097','黑色不加绒358元','S/165','13570745097','内蒙古自治区呼和浩特市市辖区我很喜欢大草原。','358','请尽快发货。','127.0.0.1','20') [ RunTime:0.0842s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+NOTIC: [8] Undefined index: province E:\wamp\www\weChat\Application\Runtime\Cache\Shop\c0cea5e4555be2f6f8c5281dfc899958.php 第 28 行.
+NOTIC: [8] Undefined index: city E:\wamp\www\weChat\Application\Runtime\Cache\Shop\c0cea5e4555be2f6f8c5281dfc899958.php 第 28 行.
+NOTIC: [8] Undefined index: area E:\wamp\www\weChat\Application\Runtime\Cache\Shop\c0cea5e4555be2f6f8c5281dfc899958.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2016-01-16T23:31:01+08:00 ] 127.0.0.1 /Shop/Index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 22 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `ip` = '127.0.0.1' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 36 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: INSERT INTO `wx_order` (`order`,`product`,`size`,`consignee`,`mob`,`address`,`mey`,`guest`,`ip`,`countip`) VALUES ('1452958259','黑色不加绒358元','S/165','王世邦','13570745097','内蒙古自治区呼和浩特市市辖区我很喜欢大草原。','358','请尽快发货。','127.0.0.1','21') [ RunTime:0.0772s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 38 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+NOTIC: [8] Undefined index: name E:\wamp\www\weChat\Application\Runtime\Cache\Shop\c0cea5e4555be2f6f8c5281dfc899958.php 第 24 行.
+NOTIC: [8] Undefined index: province E:\wamp\www\weChat\Application\Runtime\Cache\Shop\c0cea5e4555be2f6f8c5281dfc899958.php 第 28 行.
+NOTIC: [8] Undefined index: city E:\wamp\www\weChat\Application\Runtime\Cache\Shop\c0cea5e4555be2f6f8c5281dfc899958.php 第 28 行.
+NOTIC: [8] Undefined index: area E:\wamp\www\weChat\Application\Runtime\Cache\Shop\c0cea5e4555be2f6f8c5281dfc899958.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+

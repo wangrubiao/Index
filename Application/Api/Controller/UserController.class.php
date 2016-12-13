@@ -14,6 +14,51 @@ namespace Api\Controller;
 use Think\Controller;
 //class UserController extends Controller {
 class UserController extends IndexController {
+    /**
+     * 返回小金库数据
+     */
+    public function meyData(){
+        //总金额(进行中和未开始计划的金额)
+        $total = M('zmx_plan')->where('status = 0 or status = 1')->sum('money');
+        //惩罚金(计划失效后的总金额)
+        $fine = M('zmx_plan')->where('status = 3')->sum('money');
+        //完成(计划完成后取回的金额)
+        $complete = M('zmx_plan')->where('status = 2')->sum('money');
+        $data = array(
+                'total' => $total,
+                'fine' => $fine,
+                'complete' => $complete
+        );
+        $arr = array(
+            'code' => '200',
+            'msg' => 'success',
+            'data'=>$data
+        );
+        echo json_encode($arr, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT);
+    }
+    /**
+     * 修改用户资料
+     */
+    public function upinfo(){
+        extract(I());
+        $data[$field] = $value;
+        $where['uid'] = array('eq',$this->uid);
+        $result = M('zmx_member')->where($where)->save($data);
+        if($result){
+            $arr = array(
+                'code' => '200',
+                'msg' => 'success',
+                'data'=>''
+            );
+        }else{
+            $arr = array(
+                'code' => '20001',
+                'msg' => '修改失败',
+                'data'=>''
+            );
+        }
+        echo json_encode($arr, JSON_UNESCAPED_UNICODE|JSON_PRETTY_PRINT);
+    }
 	/**
 	* 登陆api
 	*/
@@ -74,6 +119,7 @@ class UserController extends IndexController {
 		$data['endtime'] = strtotime($endtime);
 		$data['money'] = $money;
 		$data['totaldays'] = 0;
+		$data['signtime'] = time();
 		if($data['starttime'] < strtotime(date("Y-m-d"))){
 			$arr = array(
 					'code'=>'6001',
@@ -127,6 +173,7 @@ class UserController extends IndexController {
 	}
 	/**
 	 * 读取计划列表
+     * 计划类型('3放弃'，'2完成','1进行中','0未开始')
 	 */
 	public function getPlan()
 	{
@@ -353,6 +400,7 @@ class UserController extends IndexController {
 	 * 广场列表数据
 	 * @access public
 	 * @param  int      $type   (1:最新发布,2:最多浏览,3:最多回复)
+     * @param  int      $uid    用户UID
 	 * @return array
 	 */
 	public function square()
@@ -371,18 +419,19 @@ class UserController extends IndexController {
 		$count = M('zmx_say')->count();  //记录总数
 		$num = ceil($count/2); //返回总页数
 		$thisPage = ($page-1)*2;   //返回条数
-		
+		$where['uid'] = array('eq',$uid);
 		$result = M('zmx_plan')
-		->field('
+            ->where($where)
+    		->field('
 				w_zmx_member.uid, w_zmx_member.name, w_zmx_member.face,w_zmx_member.username,
 				w_zmx_plan.status, w_zmx_plan.pid, w_zmx_plan.totaldays,
 				w_zmx_say.sid, w_zmx_say.scontent, w_zmx_say.img, w_zmx_say.pubtime, w_zmx_say.likes, w_zmx_say.comment
 				')
-		->join('__ZMX_MEMBER__ ON __ZMX_PLAN__.uid = __ZMX_MEMBER__.uid')
-		->join('__ZMX_SAY__ ON __ZMX_PLAN__.pid = __ZMX_SAY__.pid')
-		->order($sort.' desc')
-		->limit($thisPage,2)
-		->select();
+	    	->join('__ZMX_MEMBER__ ON __ZMX_PLAN__.uid = __ZMX_MEMBER__.uid')
+		    ->join('__ZMX_SAY__ ON __ZMX_PLAN__.pid = __ZMX_SAY__.pid')
+		    ->order($sort.' desc')
+	    	->limit($thisPage,2)
+		    ->select();
 		//获取说说SID 组成数组
 		foreach ($result as $key=>$vo){
 			$list[] = $vo['sid'];
@@ -396,6 +445,7 @@ class UserController extends IndexController {
 		//根据SID查询返回点赞集
 		$where['sid'] = array('in',$list==null?'0':$list);
 		$likes = M('zmx_likes')->field('sid,uid,likestime,lface')->where($where)->select();
+
 		if(count($likes) >= 1){
 			//点赞集合归类到说说数组
 			foreach($likes as $key=>$vo){

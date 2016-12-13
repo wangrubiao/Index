@@ -1,0 +1,16 @@
+[ 2016-04-16T16:44:37+08:00 ] 127.0.0.1 /shop/index/alipayReturn/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018616s ]
+NOTIC: [8] Undefined index: out_trade_no E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 95 行.
+NOTIC: [8] Undefined index: trade_no E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 97 行.
+NOTIC: [8] Undefined index: trade_status E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 99 行.
+NOTIC: [8] Undefined index: trade_status E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: trade_status E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 114 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013134s ]
+

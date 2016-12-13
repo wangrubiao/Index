@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>添加商品</title>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/lib/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/stylesheets/theme.css">
+<link rel="stylesheet" href="__PUBLIC__/Admin/lib/font-awesome/css/font-awesome.css">
+<script src="__PUBLIC__/Admin/lib/jquery-1.7.2.min.js" type="text/javascript"></script>
+
+<!-- Demo page code -->
+
+<style type="text/css">
+#line-chart {
+	height: 300px;
+	width: 800px;
+	margin: 0px auto;
+	margin-top: 1em;
+}
+.brand {
+	font-family: georgia, serif;
+}
+.brand .first {
+	color: #ccc;
+	font-style: italic;
+}
+.brand .second {
+	color: #fff;
+	font-weight: bold;
+}
+.s5 {
+	color: #A94442;
+	display: none;
+	margin-left: 10px;
+}
+form {
+	position: relative;
+}
+.file {
+	opacity: 0;
+	background: green;
+  background: red;
+	width: 210px
+}
+.file, .upload {
+	position: absolute;
+}
+.upload {
+	top: 89px;
+	left: 190px;
+	background: #D0EEFF;
+	outline: none;
+	padding: 5px 20px 4px 20px;
+	border: 1px solid #99D3F5;
+	border-radius: 4px;
+}
+.fake {
+	width: 170px;
+	disabled: disabled;
+}
+</style>
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+<!-- Le fav and touch icons -->
+<link rel="shortcut icon" href="__PUBLIC__/Admin/lib/font-awesome/docs/assets/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="__PUBLIC__/Admin/lib/font-awesome/docs/assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="__PUBLIC__/Admin/assets/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="__PUBLIC__/Admin/lib/font-awesome/docs/assets/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="__PUBLIC__/Admin/lib/font-awesome/docs/assets/ico/apple-touch-icon-57-precomposed.png">
+</head>
+
+<!--[if lt IE 7 ]> <body class="ie ie6"> <![endif]-->
+<!--[if IE 7 ]> <body class="ie ie7 "> <![endif]-->
+<!--[if IE 8 ]> <body class="ie ie8 "> <![endif]-->
+<!--[if IE 9 ]> <body class="ie ie9 "> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<body class="">
+<!--<![endif]-->
+
+<div class="content">
+  <div class="header">
+    <h1 class="page-title">Add Shop</h1>
+  </div>
+  <ul class="breadcrumb">
+    <li><a href="#">{$Think.config.projectName}</a> <span class="divider">/</span></li>
+    <li><a href="#">推广模块</a> <span class="divider">/</span></li>
+    <li class="active">新增商品</li>
+  </ul>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="well">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#home" data-toggle="tab">添加商品</a></li>
+        </ul>
+        <div id="myTabContent" class="tab-content">
+          <div class="tab-pane active in" id="home">
+            <form id="tab" enctype="multipart/form-data" method="post">
+            
+<style>
+table input{
+	}
+</style>
+<table>
+	<tr>
+    	<td><label>宝贝分类: </label> </td>
+    	<td> 345345</td>
+    </tr>
+	<tr>
+    	<td><label>宝贝标题: </label> </td>
+    	<td> <input name="name" id="name" type="text" value=""  style="width:700px"  /></td>
+    </tr>
+	<tr>
+    	<td><label>宝贝卖点: </label> </td>
+    	<td>  <textarea style="width:700px" ></textarea>   </td>
+    </tr>
+	<tr>
+    	<td><label>宝贝属性: </label> </td>
+    	<td> <script id="editor" type="text/plain" style="width:700px;height:500px;"></script></td>
+    </tr>
+	<tr>
+    	<td><label>宝贝内容: </label> </td>
+    	<td>  <script id="editors" type="text/plain" style="width:700px;height:500px;"></script></td>
+    </tr>
+	<tr>
+    	<td><label>宝贝颜色: </label> </td>
+    	<td> <input name="name" id="name" type="text" value=""   /></td>
+    </tr>
+	<tr>
+    	<td><label>宝贝尺码: </label> </td>
+    	<td> <input name="name" id="name" type="text" value=""   /></td>
+    </tr>
+
+</table>
+           
+            
+          
+             
+
+            
+            
+  <!-- 
+     <label>宝贝尺码</label>
+  <input name="name" id="name" type="text" value="" class="input-xlarge" />
+  <sup class="s5">*请输入商品推广标题</sup>
+  
+  <label>商品主图</label>
+ <a href="javascript:;" class="file">选择文件<input type="file" name="photo" id=""></a> 
+  <input class="fake" type="text" disabled="disabled" name="txt" onclick="file.click();"/>
+  <input class="file" type="file" name="file" onchange="txt.value=this.value"/>
+  <button type="button" class="upload" onclick="file.click();">未选择</button>-->
+              
+              <label>请赋予权限</label>
+              <foreach name="top" item="vo">
+                <if condition="$vo['fid'] eq 0">
+                  <dl>
+                    <dt class="nav-header">
+                      <input id="top" class="t{$vo.id}" type="checkbox"  value="{$vo.id}" />
+                      {$vo.name}</dt>
+                    <foreach name="sub" item="v">
+                      <if condition="$v['fid'] eq $vo['id']">
+                        <dd>
+                          <input id="son" class="t{$vo.id}" type="checkbox" value="{$v.id}" />
+                          {$v.name}</dd>
+                      </if>
+                    </foreach>
+                  </dl>
+                </if>
+              </foreach>
+              <div> 
+                <!-- <button id="sub" class="btn btn-primary"><i class="icon-save"></i> Save</button> --> 
+                <a href="#myModal" data-toggle="modal" class="btn btn-primary">确 定</a> </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h3 id="myModalLabel">Add Confirmation</h3>
+        </div>
+        <div class="modal-body">
+          <p class="error-text"><i class="icon-question-sign modal-icon"></i>您确定添加该管理员吗?</p>
+        </div>
+        <div class="modal-footer">
+          <button id="ck" class="btn" data-dismiss="modal" aria-hidden="true">确定</button>
+          <button class="btn btn-danger" data-dismiss="modal">取消</button>
+        </div>
+      </div>
+      <footer>
+        <hr>
+        <p class="pull-right">Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+        <p>&copy; 2012 <a href="#" target="_blank">Portnine</a></p>
+      </footer>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="myModala" tabindex="-1" role="dialog" 
+   aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" 
+               data-dismiss="modal" aria-hidden="true"> &times; </button>
+        <h4 class="modal-title" id="myModalLabel"> 
+          <!--弹出层标题--> 
+          温馨提示 </h4>
+      </div>
+      <div class="modal-body modal-bodyTwo"> 
+        <!--弹出层内容--> 
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn" data-dismiss="modal">关闭</button>
+    </div>
+  </div>
+  <!-- /.modal-content --> 
+</div>
+<!-- /.modal --> 
+
+<script src="__PUBLIC__/Admin/lib/bootstrap/js/bootstrap.js"></script> 
+<script type="text/javascript">
+		$(document).ready(function(){
+			$("[rel=tooltip]").tooltip();
+			$(function() {
+				$('.demo-cancel-click').click(function(){return false;});
+			});
+			$('input').focus(function(){
+				var inpId = $(this).attr('id');
+				if(inpId=="name"){
+					$(".s5").css("display","inline-block");
+				}
+			});
+			$('input').blur(function(){
+				var url    = "{:U('Admin/ajaxForm','','')}";
+				var inpId  = $(this).attr('id');
+				var inpVal = $(this).val();
+				if(inpId=="name"){			
+					$.post(url,{name:inpVal},function(data){								
+						$(".s5").text(data["content"]);
+					});	
+				}			
+				});
+			$('#myModal').on('show.bs.modal', function () {
+				var name	   = $("#name").val();
+				if(name===""){
+					$(".s5").css("display","inline-block").text("名字不能为空");
+					return false;
+				}
+			});
+			$('#ck').live("click",function(){
+				var url = "{:U('addGradeHandle')}";
+				var name = $("#name").val();
+				var range = "";
+				$('input:checkbox').each(function() {
+					if($(this).attr("checked")){
+						 range += $(this).val()+',';
+					}
+				});
+				if(range == ""){
+					$.bShow("很抱歉，您没有赋予职位任何权限！");	
+				}else{
+					$.post(url,{position:name,range:range},function(data){
+						$.bShow(data['content']);
+					});
+				}	
+			});
+			
+			$.bShow = function(data,url){
+				//弹出层样式 && 弹出内容
+				$("#myModala").css({
+					width: 'auto',
+					'margin-left': function () {
+					return -($(this).width() / 2);
+					}
+				});
+				$(".modal-bodyTwo").text(data);
+				$("#myModala").modal("show");
+			};
+		});
+        
+    </script>
+
+
+ 
+<script src="__PUBLIC__/ueditor/ueditor.config.js"></script> 
+<script src="__PUBLIC__/ueditor/ueditor.all.min.js"></script> 
+
+<script type="text/javascript">
+
+    //实例化编辑器
+    //建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
+    var ue = UE.getEditor('editor');
+    var ue = UE.getEditor('editors');
+
+    function isFocus(e){
+        alert(UE.getEditor('editor').isFocus());
+        UE.dom.domUtils.preventDefault(e)
+    }
+    function setblur(e){
+        UE.getEditor('editor').blur();
+        UE.dom.domUtils.preventDefault(e)
+    }
+    function insertHtml() {
+        var value = prompt('插入html代码', '');
+        UE.getEditor('editor').execCommand('insertHtml', value)
+    }
+    function createEditor() {
+        enableBtn();
+        UE.getEditor('editor');
+    }
+    function getAllHtml() {
+        alert(UE.getEditor('editor').getAllHtml())
+    }
+    function getContent() {
+        var arr = [];
+        arr.push("使用editor.getContent()方法可以获得编辑器的内容");
+        arr.push("内容为：");
+        arr.push(UE.getEditor('editor').getContent());
+        alert(arr.join("\n"));
+    }
+    function getPlainTxt() {
+        var arr = [];
+        arr.push("使用editor.getPlainTxt()方法可以获得编辑器的带格式的纯文本内容");
+        arr.push("内容为：");
+        arr.push(UE.getEditor('editor').getPlainTxt());
+        alert(arr.join('\n'))
+    }
+    function setContent(isAppendTo) {
+        var arr = [];
+        arr.push("使用editor.setContent('欢迎使用ueditor')方法可以设置编辑器的内容");
+        UE.getEditor('editor').setContent('欢迎使用ueditor', isAppendTo);
+        alert(arr.join("\n"));
+    }
+    function setDisabled() {
+        UE.getEditor('editor').setDisabled('fullscreen');
+        disableBtn("enable");
+    }
+
+    function setEnabled() {
+        UE.getEditor('editor').setEnabled();
+        enableBtn();
+    }
+
+    function getText() {
+        //当你点击按钮时编辑区域已经失去了焦点，如果直接用getText将不会得到内容，所以要在选回来，然后取得内容
+        var range = UE.getEditor('editor').selection.getRange();
+        range.select();
+        var txt = UE.getEditor('editor').selection.getText();
+        alert(txt)
+    }
+
+    function getContentTxt() {
+        var arr = [];
+        arr.push("使用editor.getContentTxt()方法可以获得编辑器的纯文本内容");
+        arr.push("编辑器的纯文本内容为：");
+        arr.push(UE.getEditor('editor').getContentTxt());
+        alert(arr.join("\n"));
+    }
+    function hasContent() {
+        var arr = [];
+        arr.push("使用editor.hasContents()方法判断编辑器里是否有内容");
+        arr.push("判断结果为：");
+        arr.push(UE.getEditor('editor').hasContents());
+        alert(arr.join("\n"));
+    }
+    function setFocus() {
+        UE.getEditor('editor').focus();
+    }
+    function deleteEditor() {
+        disableBtn();
+        UE.getEditor('editor').destroy();
+    }
+    function disableBtn(str) {
+        var div = document.getElementById('btns');
+        var btns = UE.dom.domUtils.getElementsByTagName(div, "button");
+        for (var i = 0, btn; btn = btns[i++];) {
+            if (btn.id == str) {
+                UE.dom.domUtils.removeAttributes(btn, ["disabled"]);
+            } else {
+                btn.setAttribute("disabled", "true");
+            }
+        }
+    }
+    function enableBtn() {
+        var div = document.getElementById('btns');
+        var btns = UE.dom.domUtils.getElementsByTagName(div, "button");
+        for (var i = 0, btn; btn = btns[i++];) {
+            UE.dom.domUtils.removeAttributes(btn, ["disabled"]);
+        }
+    }
+
+    function getLocalData () {
+        alert(UE.getEditor('editor').execCommand( "getlocaldata" ));
+    }
+
+    function clearLocalData () {
+        UE.getEditor('editor').execCommand( "clearlocaldata" );
+        alert("已清空草稿箱")
+    }
+</script>
+
+
+
+</body>
+</html>

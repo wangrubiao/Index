@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 function getCode(){
 		$appid = 'wxfb4897179e8fbdeb';

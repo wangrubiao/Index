@@ -1,0 +1,51 @@
+[ 2016-02-14T22:20:48+08:00 ] 127.0.0.1 /range/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.040559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.088485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.088701s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.341290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.341486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.050310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.050462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018972s ]
+
+[ 2016-02-14T22:30:40+08:00 ] 127.0.0.1 /range/stock/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+SQL: SHOW COLUMNS FROM `wx_stock_record` [ RunTime:0.0081s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\StockController.class.php on line 95 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_stock_record`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000221s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000498s ]
+NOTIC: [8] Undefined variable: nowSum E:\wamp\www\weChat\Application\Runtime\Cache\Admin\1384568ff1cd5c4a952a0266531ed634.php 第 112 行.
+NOTIC: [8] Undefined variable: nowCount E:\wamp\www\weChat\Application\Runtime\Cache\Admin\1384568ff1cd5c4a952a0266531ed634.php 第 112 行.
+NOTIC: [8] Undefined variable: nowAvg E:\wamp\www\weChat\Application\Runtime\Cache\Admin\1384568ff1cd5c4a952a0266531ed634.php 第 112 行.
+NOTIC: [8] Undefined variable: list E:\wamp\www\weChat\Application\Runtime\Cache\Admin\1384568ff1cd5c4a952a0266531ed634.php 第 128 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\weChat\Application\Runtime\Cache\Admin\1384568ff1cd5c4a952a0266531ed634.php 第 142 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002460s ]
+

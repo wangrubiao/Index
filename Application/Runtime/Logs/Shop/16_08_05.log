@@ -1,0 +1,270 @@
+[ 2016-08-05T13:46:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.2392s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.records,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.attribute,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0780s ]
+
+[ 2016-08-05T13:46:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0074s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.records,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.attribute,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0006s ]
+
+[ 2016-08-05T13:46:37+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0087s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.records,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.attribute,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0005s ]
+
+[ 2016-08-05T13:46:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000840s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0073s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.records,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.attribute,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0006s ]
+
+[ 2016-08-05T13:46:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0074s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.records,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.attribute,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0005s ]
+
+[ 2016-08-05T13:46:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0065s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.records,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.attribute,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0005s ]
+
+[ 2016-08-05T13:46:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0071s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.records,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.attribute,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0006s ]
+
+[ 2016-08-05T13:46:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0075s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.records,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.attribute,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0005s ]
+
+[ 2016-08-05T13:46:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0083s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.records,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.attribute,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0006s ]
+
+[ 2016-08-05T13:46:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0083s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.records,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.attribute,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0007s ]
+
+[ 2016-08-05T13:46:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0085s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.records,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.attribute,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0007s ]
+
+[ 2016-08-05T13:46:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0074s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.records,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.attribute,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0004s ]
+
+[ 2016-08-05T13:46:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0069s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.records,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.attribute,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0005s ]
+
+[ 2016-08-05T13:46:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0083s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.records,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.attribute,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0005s ]
+
+[ 2016-08-05T13:56:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0093s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.records,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.attribute,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0006s ]
+
+[ 2016-08-05T13:56:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0069s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.records,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.attribute,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0005s ]
+
+[ 2016-08-05T13:56:09+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0073s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.records,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.attribute,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0006s ]
+
+[ 2016-08-05T13:56:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0067s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.records,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.attribute,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0006s ]
+

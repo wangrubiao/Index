@@ -1,0 +1,1656 @@
+[ 2016-03-26T12:37:48+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-26T12:37:48+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-26T12:37:51+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/500x360.d0d9bb4d540ad8d71dfc7a5b95b02772.500x360.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/init.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/700x700.7415cd5aed569bdb5c63bfd565dbd079.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/700x700.854facc4272039e2610a609da349278b.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/700x700.658e729326a2c9d56785809e8c8b6923.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/700x700.31ccb8a67f5e45ba8b2f1ca1dc36367b.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/700x700.e1031a7781d8cc992a11575ebb89eb39.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/700x700.3a36a6095064179cc5a9b940e392aad0.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/700x700.13f8887a1036691f9307b5854d81891c.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/700x700.fdeec4f9e04ac8c3a13e3b0d7778ad19.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/700x700.a24e8dde105596456f2148636a38f047.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001118s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/700x700.947a0b0e7f45510544930538f220d694.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/700x700.b080af208905594c3e66019210ac323a.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/700x700.8dcf11766bccd40650bd45eab4b0981e.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/750x781.5e5001375a4be70f4fc366ebd083c92c.980x.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/640x640.445d6bd289fddd75c1222f8ac9290fca.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/700x700.46e5e34d3f436bf226f4f257b05a4d6b.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001392s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/750x521.2dad17ada679d4008fbb869be6ab5054.980x.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/700x700.2a613520bcc116f8327f17020ecc4bac.220x220.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/700x700.7d0e67bad09c2bc11f9672d6dc4470ec.220x220.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000870s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/700x700.16df843ef95e75b6d8e1ac24c60118c5.220x220.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/700x700.ca31401944aaa5e33b03e890c5436c6a.220x220.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/700x700.7dbbdefe6fc7a708136e63a2360051a2.220x220.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:10+08:00 ] 127.0.0.1 /Public/Mall/images/700x700.43a9dbb75e3888dd41aecc90ceea8f2c.220x220.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:11+08:00 ] 127.0.0.1 /Public/Mall/images/signin5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:11+08:00 ] 127.0.0.1 /Public/Mall/images/sidePanel_checkin1N.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000894s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:11+08:00 ] 127.0.0.1 /Public/Mall/images/car_quan_pic.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:11+08:00 ] 127.0.0.1 /Public/Mall/images/deal_y2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:11+08:00 ] 127.0.0.1 /Public/Mall/images/loading400x400.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:11+08:00 ] 127.0.0.1 /Public/Mall/style/new_ico1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000698s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001480s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T12:38:11+08:00 ] 127.0.0.1 /Public/Mall/images/start.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:21:00+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-26T13:36:31+08:00 ] 127.0.0.1 /Public/Mall/images/signin5_bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001315s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:40+08:00 ] 127.0.0.1 /Public/Mall/style/d/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:40+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon13.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:40+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon10_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:40+08:00 ] 127.0.0.1 /Public/Mall/style/d/dprk.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:40+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:40+08:00 ] 127.0.0.1 /Public/Mall/style/d/step.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:40+08:00 ] 127.0.0.1 /Public/Mall/style/d/level.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:40+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:40+08:00 ] 127.0.0.1 /Public/Mall/style/d/msgs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:40+08:00 ] 127.0.0.1 /Public/Mall/style/d/deal_img/new_y_s2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001630s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002413s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:40+08:00 ] 127.0.0.1 /Public/Mall/style/d/sideicon2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:41+08:00 ] 127.0.0.1 /Public/Mall/style/d/msgs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:41+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:41+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:41+08:00 ] 127.0.0.1 /Public/Mall/style/d/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:41+08:00 ] 127.0.0.1 /Public/Mall/style/d/dprk.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001279s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:41+08:00 ] 127.0.0.1 /Public/Mall/style/d/msgs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:41+08:00 ] 127.0.0.1 /Public/Mall/style/d/level.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:42+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon10_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:42+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon13.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:42+08:00 ] 127.0.0.1 /Public/Mall/style/d/deal_img/new_y_s2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:42+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000128s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002495s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:42+08:00 ] 127.0.0.1 /Public/Mall/style/d/sideicon2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:43+08:00 ] 127.0.0.1 /Public/Mall/style/d/msgs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:43+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:48+08:00 ] 127.0.0.1 /Public/Mall/style/d/step.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:48+08:00 ] 127.0.0.1 /Public/Mall/style/d/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:48+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon13.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:48+08:00 ] 127.0.0.1 /Public/Mall/style/d/level.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001232s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:48+08:00 ] 127.0.0.1 /Public/Mall/style/d/dprk.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:48+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004178s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:48+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon10_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:48+08:00 ] 127.0.0.1 /Public/Mall/style/d/msgs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:48+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:48+08:00 ] 127.0.0.1 /Public/Mall/style/d/deal_img/new_y_s2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:48+08:00 ] 127.0.0.1 /Public/Mall/style/d/sideicon2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:49+08:00 ] 127.0.0.1 /Public/Mall/style/d/step.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:49+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001227s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:49+08:00 ] 127.0.0.1 /Public/Mall/style/d/dprk.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:49+08:00 ] 127.0.0.1 /Public/Mall/style/d/msgs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:49+08:00 ] 127.0.0.1 /Public/Mall/style/d/level.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:49+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon13.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001406s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:49+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon10_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001323s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:49+08:00 ] 127.0.0.1 /Public/Mall/style/d/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:50+08:00 ] 127.0.0.1 /Public/Mall/style/d/sideicon2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:50+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:50+08:00 ] 127.0.0.1 /Public/Mall/style/d/deal_img/new_y_s2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:51+08:00 ] 127.0.0.1 /Public/Mall/style/d/msgs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:54:51+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001002s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:22+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon10_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:22+08:00 ] 127.0.0.1 /Public/Mall/style/d/dprk.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:22+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon13.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:22+08:00 ] 127.0.0.1 /Public/Mall/style/d/msgs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:22+08:00 ] 127.0.0.1 /Public/Mall/style/d/level.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:22+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:22+08:00 ] 127.0.0.1 /Public/Mall/style/d/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002536s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:22+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001893s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:22+08:00 ] 127.0.0.1 /Public/Mall/style/d/deal_img/new_y_s2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:22+08:00 ] 127.0.0.1 /Public/Mall/style/d/step.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:22+08:00 ] 127.0.0.1 /Public/Mall/style/d/sideicon2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:23+08:00 ] 127.0.0.1 /Public/Mall/style/d/step.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:23+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:23+08:00 ] 127.0.0.1 /Public/Mall/style/d/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:23+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon13.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:23+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon10_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:23+08:00 ] 127.0.0.1 /Public/Mall/style/d/dprk.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:23+08:00 ] 127.0.0.1 /Public/Mall/style/d/level.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:23+08:00 ] 127.0.0.1 /Public/Mall/style/d/msgs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:23+08:00 ] 127.0.0.1 /Public/Mall/style/d/sideicon2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:23+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:23+08:00 ] 127.0.0.1 /Public/Mall/style/d/deal_img/new_y_s2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:24+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:24+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon13.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:24+08:00 ] 127.0.0.1 /Public/Mall/style/d/dprk.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000165s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:24+08:00 ] 127.0.0.1 /Public/Mall/style/d/msgs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:24+08:00 ] 127.0.0.1 /Public/Mall/style/d/level.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001190s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:24+08:00 ] 127.0.0.1 /Public/Mall/style/d/step.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:24+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon10_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:24+08:00 ] 127.0.0.1 /Public/Mall/style/d/deal_img/new_y_s2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:24+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:24+08:00 ] 127.0.0.1 /Public/Mall/style/d/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012994s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:24+08:00 ] 127.0.0.1 /Public/Mall/style/d/sideicon2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon10_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002205s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/step.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/msgs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/level.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029542s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/dprk.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon13.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/sideicon2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/deal_img/new_y_s2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001531s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:27+08:00 ] 127.0.0.1 /Public/Mall/style/d/msgs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:55:27+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:57:24+08:00 ] 127.0.0.1 /Public/Mall/style/d/step.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:57:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon13.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:57:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/dprk.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:57:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/level.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:57:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon10_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:57:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:57:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/deal_img/new_y_s2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:57:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:57:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/sideicon2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:57:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001674s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:57:25+08:00 ] 127.0.0.1 /Public/Mall/style/d/msgs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:57:27+08:00 ] 127.0.0.1 /Public/Mall/style/d/msgs.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:57:28+08:00 ] 127.0.0.1 /Public/Mall/style/d/icon7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:59:48+08:00 ] 127.0.0.1 /Public/Mall/images/step.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:59:48+08:00 ] 127.0.0.1 /Public/Mall/images/icon10_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:59:48+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:59:48+08:00 ] 127.0.0.1 /Public/Mall/images/dprk.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:59:48+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:59:48+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/new_y_s2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:59:48+08:00 ] 127.0.0.1 /Public/Mall/images/sideicon2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:59:49+08:00 ] 127.0.0.1 /Public/Mall/images/icon10_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001732s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:59:49+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:59:50+08:00 ] 127.0.0.1 /Public/Mall/images/step.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:59:50+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/new_y_s2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:59:50+08:00 ] 127.0.0.1 /Public/Mall/images/dprk.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:59:50+08:00 ] 127.0.0.1 /Public/Mall/images/sideicon2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001268s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:59:50+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T13:59:51+08:00 ] 127.0.0.1 /Public/Mall/images/icon7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:01:00+08:00 ] 127.0.0.1 /Public/Mall/images/icon10_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:01:21+08:00 ] 127.0.0.1 /Public/Mall/images/icon10_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:12+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:12+08:00 ] 127.0.0.1 /Public/Mall/images/icon10_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001038s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:12+08:00 ] 127.0.0.1 /Public/Mall/images/dprk.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000130s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:12+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/new_y_s2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:12+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:12+08:00 ] 127.0.0.1 /Public/Mall/images/sideicon2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:13+08:00 ] 127.0.0.1 /Public/Mall/images/icon7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:15+08:00 ] 127.0.0.1 /Public/Mall/images/icon10_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:15+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:15+08:00 ] 127.0.0.1 /Public/Mall/images/dprk.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005765s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:15+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/new_y_s2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:15+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:15+08:00 ] 127.0.0.1 /Public/Mall/images/sideicon2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:19+08:00 ] 127.0.0.1 /Public/Mall/images/icon7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:19+08:00 ] 127.0.0.1 /Public/Mall/images/icon10_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:19+08:00 ] 127.0.0.1 /Public/Mall/images/dprk.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:19+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:19+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002293s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:19+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/new_y_s2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:20+08:00 ] 127.0.0.1 /Public/Mall/images/sideicon2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:21+08:00 ] 127.0.0.1 /Public/Mall/images/icon7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:35+08:00 ] 127.0.0.1 /Public/Mall/images/icon10_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:37+08:00 ] 127.0.0.1 /Public/Mall/images/icon10_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:05:40+08:00 ] 127.0.0.1 /Public/Mall/images/icon10_new.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:06:10+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:06:11+08:00 ] 127.0.0.1 /Public/Mall/images/dprk.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:06:11+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:06:11+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/new_y_s2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001668s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:06:11+08:00 ] 127.0.0.1 /Public/Mall/images/sideicon2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:06:12+08:00 ] 127.0.0.1 /Public/Mall/images/icon7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:06:47+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:06:47+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:06:47+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/new_y_s2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:06:47+08:00 ] 127.0.0.1 /Public/Mall/images/sideicon2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:06:48+08:00 ] 127.0.0.1 /Public/Mall/images/icon7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:10:17+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:10:17+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:10:17+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/new_y_s2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:10:17+08:00 ] 127.0.0.1 /Public/Mall/images/sideicon2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000159s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:10:19+08:00 ] 127.0.0.1 /Public/Mall/images/icon7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:15:40+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005412s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:15:40+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:15:41+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000705s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-26T14:15:42+08:00 ] 127.0.0.1 /Public/Mall/images/icon7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:16:43+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001031s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:16:43+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003073s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:16:44+08:00 ] 127.0.0.1 /cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+ERR: 无法加载模块:Cart
+
+[ 2016-03-26T14:16:44+08:00 ] 127.0.0.1 /Public/Mall/images/icon7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:17:12+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004738s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:17:12+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001075s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:17:13+08:00 ] 127.0.0.1 /Public/Mall/images/icon7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:18:46+08:00 ] 127.0.0.1 /Public/Mall/images/icon7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:32:53+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:32:53+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:32:53+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-26T14:36:44+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:36:44+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:36:59+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:36:59+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:37:27+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001740s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:37:27+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:38:01+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:38:01+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:38:25+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:38:25+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:39:13+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:39:13+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:39:29+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:39:29+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:39:30+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:39:30+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000990s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:39:41+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:39:41+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003090s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:39:45+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000133s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001161s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:41:53+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:41:53+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:43:10+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:43:10+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002410s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:43:44+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:43:44+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:44:09+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:44:09+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001057s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:56:42+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:56:42+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:58:16+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:58:16+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001094s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:58:37+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:58:37+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:59:13+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:59:13+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001537s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:59:13+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-26T14:59:42+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T14:59:51+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-03-26T15:01:05+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:02:04+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:02:04+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001174s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:02:11+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:02:11+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:02:16+08:00 ] 127.0.0.1 /Public/Mall/images/deal_img/p_Spirit5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001412s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:02:37+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001023s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:03:18+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004853s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:07:40+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:09:04+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:09:10+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001420s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:09:32+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:09:37+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:09:41+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:10:18+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:10:25+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:10:29+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:10:34+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:10:41+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001549s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:10:46+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:10:53+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+ERR: 无法加载模块:Public
+
+[ 2016-03-26T15:12:21+08:00 ] 127.0.0.1 /Public/Mall/images/icon_pencil.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+ERR: 无法加载模块:Public
+

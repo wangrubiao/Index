@@ -1,0 +1,43 @@
+html #layui_layer_skinyourskinstylecss
+{
+	display:none;
+	position: absolute;
+	width:1989px;
+}
+body .layer-ext-yourskin .layui-layer-title
+{
+	color:#FFFFFF;
+	background: #C7000B;
+	text-align: left;
+}
+body .layui-layer-content .fgx{
+	margin: 20px 10px 20px 10px;
+	border-top:1px solid #ccc;
+	color: red;
+}
+body .layui-layer-content button
+{
+	border: none;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-left:25px;
+	padding-right:25px;
+	background: #DC0000;
+	font-family: 微软雅黑;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	margin-top: 20px;
+}
+body .layui-layer-content button.bt1
+{
+	color: #FFFFFF;
+}
+body .layui-layer-content button.bt2
+{
+	color: #000000;
+	background: none;
+	border: 1px solid #ccc;
+	margin-left: 10px;
+}

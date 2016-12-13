@@ -1,0 +1,62 @@
+[ 2016-02-21T13:46:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 16 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0118s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id  WHERE wx_goods.id = 1  [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `wx_goods_spec` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `wx_goods_spec` WHERE `goods_id` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wx_goods_specfocus` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `wx_goods_specfocus` WHERE `spec_id` = 1  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: g E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2016-02-21T19:11:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001815s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php on line 16 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0075s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id  WHERE wx_goods.id = 1  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wx_goods_spec` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `wx_goods_spec` WHERE `goods_id` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `wx_goods_specfocus` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `wx_goods_specfocus` WHERE `spec_id` = 1  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: g E:\wamp\www\weChat\Application\Shop\Controller\IndexController.class.php 第 43 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+

@@ -1,0 +1,1929 @@
+[ 2016-01-30T22:01:27+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0070s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 20,10   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0057s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2016-01-30T22:01:39+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0070s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 20,10   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0055s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2016-01-30T22:01:41+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0066s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 20,10   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0058s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2016-01-30T22:01:41+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0094s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 10,10   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001587s ]
+
+[ 2016-01-30T22:01:42+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0057s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 30,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0058s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-01-30T22:01:51+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0056s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 30,10   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0051s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2016-01-30T22:01:52+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0063s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 30,10   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2016-01-30T22:01:52+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0056s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 30,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0053s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001490s ]
+
+[ 2016-01-30T22:02:07+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0079s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 30,10   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0078s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2016-01-30T22:02:08+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004643s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0078s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 30,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0051s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2016-01-30T22:02:09+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0065s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 40,10   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0065s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-01-30T22:02:10+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001824s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0064s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 30,10   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0053s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2016-01-30T22:02:11+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0069s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 40,10   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0053s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+
+[ 2016-01-30T22:02:11+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0058s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 50,10   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0062s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2016-01-30T22:02:13+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0071s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 40,10   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0054s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2016-01-30T22:02:27+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0068s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 40,10   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0054s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-01-30T22:02:45+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0065s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 40,10   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0074s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2016-01-30T22:02:46+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0057s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 50,10   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0053s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-01-30T22:02:54+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0086s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 50,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0053s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2016-01-30T22:02:54+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0062s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 50,10   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0055s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028614s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2016-01-30T22:03:03+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0065s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 50,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0061s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-01-30T22:03:04+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0059s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 50,10   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0053s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 123 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-01-30T22:03:10+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0057s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 50,10   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0051s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-01-30T22:03:33+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0067s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 40,10   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0054s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2016-01-30T22:03:54+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0056s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 40,10   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0053s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2016-01-30T22:04:46+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001085s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0077s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 40,10   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0064s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2016-01-30T22:06:31+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0071s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 40,10   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0055s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2016-01-30T22:09:49+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0072s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 0,10   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0064s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-01-30T22:10:40+08:00 ] 127.0.0.1 /range/goods/goodsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0059s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\GoodsController.class.php on line 26 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods_type.id = wx_goods.type   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wx_goods_spec` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wx_goods_spec` INNER JOIN wx_goods_specfocus ON wx_goods_spec.id = wx_goods_specfocus.spec_id  WHERE wx_goods_spec.goods_id = 1  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined variable: nowSum E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 109 行.
+NOTIC: [8] Undefined variable: nowCount E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 109 行.
+NOTIC: [8] Undefined variable: nowAvg E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 109 行.
+NOTIC: [8] Undefined index: register E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 134 行.
+NOTIC: [8] Undefined index: register E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 135 行.
+NOTIC: [8] Undefined index: ip E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 143 行.
+NOTIC: [8] Undefined index: ip E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 143 行.
+NOTIC: [8] Undefined index: register E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 134 行.
+NOTIC: [8] Undefined index: register E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 135 行.
+NOTIC: [8] A non well formed numeric value encountered E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 139 行.
+NOTIC: [8] Undefined index: ip E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 143 行.
+NOTIC: [8] Undefined index: ip E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 143 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-01-30T22:10:41+08:00 ] 127.0.0.1 /range/extend/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\ExtendController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_bid_platform` [ RunTime:0.0055s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\ExtendController.class.php on line 17 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_bid_platform`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined variable: top E:\wamp\www\weChat\Application\Runtime\Cache\Admin\e8795454bbfa6c27103e6e1ce5cf048a.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-01-30T22:10:45+08:00 ] 127.0.0.1 /range/Extend/handle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\ExtendController.class.php on line 25 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_bid_resources` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `wx_bid_resources` WHERE `platform_id` = '1'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\weChat\Application\Admin\Controller\ExtendController.class.php 第 31 行.
+
+[ 2016-01-30T22:10:46+08:00 ] 127.0.0.1 /range/Extend/handleSize.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\ExtendController.class.php on line 42 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_bid_ressize` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wx_bid_ressize` WHERE `rsenid` = '2'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\weChat\Application\Admin\Controller\ExtendController.class.php 第 48 行.
+
+[ 2016-01-30T22:11:25+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0059s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 0,10   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0052s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-01-30T22:11:26+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0064s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 0,10   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0059s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2016-01-30T22:11:27+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0061s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 0,10   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2016-01-30T22:11:44+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0069s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 50,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0052s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000913s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2016-01-30T22:11:46+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0062s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 0,10   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0058s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-01-30T22:12:21+08:00 ] 127.0.0.1 /range/Order/ordeIssue/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 140 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0059s ]
+SQL: SELECT SUM(freight) AS tp_sum FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT AVG(freight) AS tp_avg FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE ( type=4 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_order` WHERE `type` IN ('2','3','4') LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT o.id,o.order,o.order_title,o.product_img,o.goods_id,o.product,o.size,o.consignee,o.mob,o.address,o.mey,o.guest,o.type,o.ip,o.countip,o.express,o.waybill,o.register,o.sendtime,wx_admin.name,wx_express.exp_name,o.freight FROM wx_order o INNER JOIN wx_admin ON o.uid = wx_admin.id INNER JOIN wx_express ON o.express = wx_express.id  WHERE `type` IN ('2','3','4') ORDER BY o.sendtime desc LIMIT 0,10   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `wx_express` [ RunTime:0.0062s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 171 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `wx_express`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+NOTIC: [8] Undefined index: paytype E:\wamp\www\weChat\Application\Runtime\Cache\Admin\924dde604e98ba3080917ffd22e0b529.php 第 118 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2016-01-30T23:02:14+08:00 ] 127.0.0.1 /range/goods/goodsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001030s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0069s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\GoodsController.class.php on line 26 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods_type.id = wx_goods.type   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wx_goods_spec` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `wx_goods_spec` INNER JOIN wx_goods_specfocus ON wx_goods_spec.id = wx_goods_specfocus.spec_id  WHERE wx_goods_spec.goods_id = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+NOTIC: [8] Undefined variable: nowSum E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 109 行.
+NOTIC: [8] Undefined variable: nowCount E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 109 行.
+NOTIC: [8] Undefined variable: nowAvg E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 109 行.
+NOTIC: [8] Undefined index: register E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 134 行.
+NOTIC: [8] Undefined index: register E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 135 行.
+NOTIC: [8] Undefined index: ip E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 143 行.
+NOTIC: [8] Undefined index: ip E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 143 行.
+NOTIC: [8] Undefined index: register E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 134 行.
+NOTIC: [8] Undefined index: register E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 135 行.
+NOTIC: [8] A non well formed numeric value encountered E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 139 行.
+NOTIC: [8] Undefined index: ip E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 143 行.
+NOTIC: [8] Undefined index: ip E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 143 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2016-01-30T23:02:18+08:00 ] 127.0.0.1 /range/Goods/stockEdit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001702s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\GoodsController.class.php on line 46 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods_spec` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `wx_goods_spec` INNER JOIN wx_goods_specfocus ON wx_goods_spec.id = wx_goods_specfocus.spec_id  WHERE wx_goods_spec.goods_id = '1'  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\weChat\Application\Admin\Controller\GoodsController.class.php 第 52 行.
+
+[ 2016-01-30T23:03:19+08:00 ] 127.0.0.1 /range/Goods/stockEdit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\GoodsController.class.php on line 46 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods_spec` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `wx_goods_spec` INNER JOIN wx_goods_specfocus ON wx_goods_spec.id = wx_goods_specfocus.spec_id  WHERE wx_goods_spec.goods_id = '1'  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\weChat\Application\Admin\Controller\GoodsController.class.php 第 52 行.
+
+[ 2016-01-30T23:03:31+08:00 ] 127.0.0.1 /range/Goods/stockEditCheck.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\GoodsController.class.php on line 60 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0067s ]
+SQL: UPDATE wx_goods_specfocus SET spec_stock = CASE id WHEN 1 THEN 300 WHEN 2 THEN 300 WHEN 3 THEN 5 END WHERE id IN (1,2,3) [ RunTime:0.1573s ]
+SQL: UPDATE `wx_goods` SET `stock`='605' WHERE `id` = 1 [ RunTime:0.0668s ]
+
+[ 2016-01-30T23:03:34+08:00 ] 127.0.0.1 /range/goods/goodsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0062s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\GoodsController.class.php on line 26 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods_type.id = wx_goods.type   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wx_goods_spec` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `wx_goods_spec` INNER JOIN wx_goods_specfocus ON wx_goods_spec.id = wx_goods_specfocus.spec_id  WHERE wx_goods_spec.goods_id = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000288s ]
+NOTIC: [8] Undefined variable: nowSum E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 109 行.
+NOTIC: [8] Undefined variable: nowCount E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 109 行.
+NOTIC: [8] Undefined variable: nowAvg E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 109 行.
+NOTIC: [8] Undefined index: register E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 134 行.
+NOTIC: [8] Undefined index: register E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 135 行.
+NOTIC: [8] Undefined index: ip E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 143 行.
+NOTIC: [8] Undefined index: ip E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 143 行.
+NOTIC: [8] Undefined index: register E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 134 行.
+NOTIC: [8] Undefined index: register E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 135 行.
+NOTIC: [8] A non well formed numeric value encountered E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 139 行.
+NOTIC: [8] Undefined index: ip E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 143 行.
+NOTIC: [8] Undefined index: ip E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 143 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000670s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2016-01-30T23:04:01+08:00 ] 127.0.0.1 /range/Goods/stockEdit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\GoodsController.class.php on line 46 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods_spec` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `wx_goods_spec` INNER JOIN wx_goods_specfocus ON wx_goods_spec.id = wx_goods_specfocus.spec_id  WHERE wx_goods_spec.goods_id = '1'  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\weChat\Application\Admin\Controller\GoodsController.class.php 第 52 行.
+
+[ 2016-01-30T23:04:08+08:00 ] 127.0.0.1 /range/Goods/stockEditCheck.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\GoodsController.class.php on line 60 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0064s ]
+SQL: UPDATE wx_goods_specfocus SET spec_stock = CASE id WHEN 1 THEN 300 WHEN 2 THEN 300 WHEN 3 THEN 800 END WHERE id IN (1,2,3) [ RunTime:0.0689s ]
+SQL: UPDATE `wx_goods` SET `stock`='1400' WHERE `id` = 1 [ RunTime:0.1210s ]
+
+[ 2016-01-30T23:04:09+08:00 ] 127.0.0.1 /range/goods/goodsList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001627s ]
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0082s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in E:\wamp\www\weChat\Application\Admin\Controller\GoodsController.class.php on line 26 and defined E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where E:\wamp\www\weChat\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods_type.id = wx_goods.type   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wx_goods_spec` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `wx_goods_spec` INNER JOIN wx_goods_specfocus ON wx_goods_spec.id = wx_goods_specfocus.spec_id  WHERE wx_goods_spec.goods_id = 1  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+NOTIC: [8] Undefined variable: nowSum E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 109 行.
+NOTIC: [8] Undefined variable: nowCount E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 109 行.
+NOTIC: [8] Undefined variable: nowAvg E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 109 行.
+NOTIC: [8] Undefined index: register E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 134 行.
+NOTIC: [8] Undefined index: register E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 135 行.
+NOTIC: [8] Undefined index: ip E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 143 行.
+NOTIC: [8] Undefined index: ip E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 143 行.
+NOTIC: [8] Undefined index: register E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 134 行.
+NOTIC: [8] Undefined index: register E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 135 行.
+NOTIC: [8] A non well formed numeric value encountered E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 139 行.
+NOTIC: [8] Undefined index: ip E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 143 行.
+NOTIC: [8] Undefined index: ip E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 143 行.
+NOTIC: [8] Undefined variable: page E:\wamp\www\weChat\Application\Runtime\Cache\Admin\cd3c3a311df42f2b84f4de582bab3276.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2016-01-30T23:04:12+08:00 ] 127.0.0.1 /range/Goods/stockEdit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001579s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\GoodsController.class.php on line 46 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods_spec` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `wx_goods_spec` INNER JOIN wx_goods_specfocus ON wx_goods_spec.id = wx_goods_specfocus.spec_id  WHERE wx_goods_spec.goods_id = '1'  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\weChat\Application\Admin\Controller\GoodsController.class.php 第 52 行.
+
+[ 2016-01-30T23:05:32+08:00 ] 127.0.0.1 /range/Order/cgetMob.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Admin\Controller\OrderController.class.php on line 374 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_order` [ RunTime:0.0076s ]
+NOTIC: [8] Undefined variable: str E:\wamp\www\weChat\Application\Admin\Model\OrderModel.class.php 第 99 行.
+

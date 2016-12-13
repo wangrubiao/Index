@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 $code = $_GET;
 p($code);

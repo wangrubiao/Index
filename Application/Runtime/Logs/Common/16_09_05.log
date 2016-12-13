@@ -1,0 +1,12 @@
+[ 2016-09-05T10:07:04+08:00 ] 127.0.0.1 /web/pluginRepository.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038698s ]
+ERR: 无法加载模块:Web
+
+[ 2016-09-05T13:23:17+08:00 ] 127.0.0.1 /web/pluginRepository.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.036048s ]
+ERR: 无法加载模块:Web
+

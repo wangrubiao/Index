@@ -1,0 +1,630 @@
+[ 2016-03-15T20:16:31+08:00 ] 127.0.0.1 /mall.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-03-15T20:18:24+08:00 ] 127.0.0.1 /mall.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Mall\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Mall\Controller\IndexController.class.php on line 14 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0077s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0005s ]
+
+[ 2016-03-15T20:18:24+08:00 ] 127.0.0.1 /mall.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Mall\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Mall\Controller\IndexController.class.php on line 14 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0066s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0006s ]
+
+[ 2016-03-15T20:18:25+08:00 ] 127.0.0.1 /mall.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Mall\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Mall\Controller\IndexController.class.php on line 14 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0067s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0004s ]
+
+[ 2016-03-15T20:18:28+08:00 ] 127.0.0.1 /mall.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Mall\Controller\IndexController.class.php 第 13 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Mall\Controller\IndexController.class.php on line 14 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0057s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0005s ]
+
+[ 2016-03-15T20:19:08+08:00 ] 127.0.0.1 /mall.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+NOTIC: [8] Undefined index: id E:\wamp\www\weChat\Application\Mall\Controller\IndexController.class.php 第 14 行.
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Mall\Controller\IndexController.class.php on line 15 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+SQL: SHOW COLUMNS FROM `wx_goods` [ RunTime:0.0062s ]
+SQL: SELECT wx_goods.id,wx_goods.title,wx_goods.picture_id,wx_goods.point,wx_goods.goods_number,wx_goods.content,wx_goods.counter,wx_goods.money,wx_goods.discount,wx_goods.shipping,wx_goods.weight,wx_goods.stock,wx_goods.seat,wx_goods.pubtime,wx_goods.state,wx_goods_type.type_name,wx_goods_picture.img_url FROM `wx_goods` INNER JOIN wx_goods_type ON wx_goods.type = wx_goods_type.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods.id = null  [ RunTime:0.0006s ]
+
+[ 2016-03-15T20:26:00+08:00 ] 127.0.0.1 /mall.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-03-15T20:26:01+08:00 ] 127.0.0.1 /mall.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-03-15T20:33:58+08:00 ] 127.0.0.1 /mall.php/mall/login/index
+ERR: 模板不存在:./Application/Mall/View/Index/index.html
+
+[ 2016-03-15T20:39:37+08:00 ] 127.0.0.1 /mall.php/mall/login/index
+ERR: 模板不存在:./Application/Mall/View/Index/index.html
+
+[ 2016-03-15T21:10:44+08:00 ] 127.0.0.1 /mall.php/mall/login/index
+ERR: 模板不存在:./Application/Mall/View/Index/index.html
+
+[ 2016-03-15T21:12:48+08:00 ] 127.0.0.1 /mall.php/mall/login/index
+ERR: 模板不存在:./Application/Mall/View/Index/index.html
+
+[ 2016-03-15T21:12:49+08:00 ] 127.0.0.1 /mall.php/mall/login/index
+ERR: 模板不存在:./Application/Mall/View/Index/index.html
+
+[ 2016-03-15T21:12:50+08:00 ] 127.0.0.1 /mall.php/mall/login/index
+ERR: 模板不存在:./Application/Mall/View/Index/index.html
+
+[ 2016-03-15T21:12:50+08:00 ] 127.0.0.1 /mall.php/mall/login/index
+ERR: 模板不存在:./Application/Mall/View/Index/index.html
+
+[ 2016-03-15T21:12:50+08:00 ] 127.0.0.1 /mall.php/mall/login/index
+ERR: 模板不存在:./Application/Mall/View/Index/index.html
+
+[ 2016-03-15T21:12:50+08:00 ] 127.0.0.1 /mall.php/mall/login/index
+ERR: 模板不存在:./Application/Mall/View/Index/index.html
+
+[ 2016-03-15T21:12:57+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:12:57+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:12:58+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:12:58+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:12:58+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:12:58+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:12:59+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:12:59+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:13:36+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:13:36+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:19:21+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:19:21+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:19:22+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:19:22+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:19:38+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:19:45+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:19:45+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:19:46+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:19:46+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:20:10+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:20:10+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:20:11+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:20:11+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:20:11+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:20:11+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:20:11+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:20:11+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:20:12+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:20:12+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:20:12+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:20:12+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:20:12+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:20:12+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:20:12+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:20:12+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:20:12+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:20:12+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:20:12+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:20:13+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:20:13+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:20:13+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:20:13+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:20:13+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:20:54+08:00 ] 127.0.0.1 /mall.php/mall/login/style/login.css
+ERR: 非法操作:style
+
+[ 2016-03-15T21:20:54+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:21:08+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:21:08+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:21:09+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:21:09+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:21:10+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:21:45+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:22:25+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:24:00+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:24:38+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:24:38+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:24:38+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:26:21+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:26:22+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:28:01+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:28:01+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:28:02+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:28:03+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:28:14+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:28:14+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:28:15+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:28:15+08:00 ] 127.0.0.1 /mall.php/mall/login/login_files/main-b93236b0.css
+ERR: 非法操作:login_files
+
+[ 2016-03-15T21:48:05+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T21:53:42+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T21:56:58+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T21:57:27+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:02:58+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:03:28+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:10:43+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:17:19+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:18:38+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:18:59+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:19:33+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:19:53+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:20:16+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:20:24+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:33:38+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:36:15+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:37:09+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:37:25+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:39:52+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:42:06+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:53:28+08:00 ] 127.0.0.1 /mall/login/login.html?id=value
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+
+[ 2016-03-15T22:53:28+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:54:49+08:00 ] 127.0.0.1 /mall/login/login.html?id=value
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+
+[ 2016-03-15T22:54:49+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:55:04+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:55:07+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:55:34+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:55:38+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:56:03+08:00 ] 127.0.0.1 /mall/login/logi2n.html?id=value
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+ERR: 非法操作:logi2n
+
+[ 2016-03-15T22:56:03+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:56:29+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:56:38+08:00 ] 127.0.0.1 /mall/login/logi2n.html?id=value
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+ERR: 非法操作:logi2n
+
+[ 2016-03-15T22:56:39+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:57:33+08:00 ] 127.0.0.1 /mall/login/login.html?id=value
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+
+[ 2016-03-15T22:57:34+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+
+[ 2016-03-15T22:58:00+08:00 ] 127.0.0.1 /mall/login/login.html?id=value
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+
+[ 2016-03-15T22:58:05+08:00 ] 127.0.0.1 /mall/login/login.html?id=value
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+
+[ 2016-03-15T22:58:28+08:00 ] 127.0.0.1 /mall/login/login.html?id=value
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002874s ]
+
+[ 2016-03-15T22:58:57+08:00 ] 127.0.0.1 /mall/login/login.html?id=value
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+
+[ 2016-03-15T22:59:29+08:00 ] 127.0.0.1 /mall/login/login.html?id=value
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001173s ]
+
+[ 2016-03-15T23:00:47+08:00 ] 127.0.0.1 /mall/login/login.html?id=value
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+
+[ 2016-03-15T23:01:41+08:00 ] 127.0.0.1 /mall/login/login.html?id=value
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002490s ]
+
+[ 2016-03-15T23:03:58+08:00 ] 127.0.0.1 /mall/login/login.html?id=value
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002578s ]
+
+[ 2016-03-15T23:04:19+08:00 ] 127.0.0.1 /mall/login/login.html?id=value
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+
+[ 2016-03-15T23:12:26+08:00 ] 127.0.0.1 /mall/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Mall\Controller\LoginController.class.php on line 19 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+
+[ 2016-03-15T23:12:31+08:00 ] 127.0.0.1 /mall/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Mall\Controller\LoginController.class.php on line 19 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+
+[ 2016-03-15T23:12:35+08:00 ] 127.0.0.1 /mall/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Mall\Controller\LoginController.class.php on line 19 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+
+[ 2016-03-15T23:12:45+08:00 ] 127.0.0.1 /mall/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001798s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Mall\Controller\LoginController.class.php on line 19 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+
+[ 2016-03-15T23:12:57+08:00 ] 127.0.0.1 /mall/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001510s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Mall\Controller\LoginController.class.php on line 19 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+
+[ 2016-03-15T23:13:52+08:00 ] 127.0.0.1 /mall/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Mall\Controller\LoginController.class.php on line 19 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+
+[ 2016-03-15T23:13:58+08:00 ] 127.0.0.1 /mall/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Mall\Controller\LoginController.class.php on line 19 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+
+[ 2016-03-15T23:15:23+08:00 ] 127.0.0.1 /mall/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000273s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Mall\Controller\LoginController.class.php on line 19 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+
+[ 2016-03-15T23:55:46+08:00 ] 127.0.0.1 /mall.php/mall/login/111
+ERR: 非法操作:111
+

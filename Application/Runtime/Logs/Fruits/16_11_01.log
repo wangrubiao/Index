@@ -1,0 +1,88 @@
+[ 2016-11-01T10:36:49+08:00 ] 127.0.0.1 /Fruits.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Fruits\Controller\CommonController.class.php on line 11 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined variable: code E:\wamp\www\weChat\Application\Fruits\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2] curl_errno(): 29 is not a valid cURL handle resource E:\wamp\www\weChat\Application\Fruits\Controller\WechatController.class.php 第 66 行.
+NOTIC: [2] curl_errno(): 30 is not a valid cURL handle resource E:\wamp\www\weChat\Application\Fruits\Controller\WechatController.class.php 第 66 行.
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\wamp\www\weChat\Application\Fruits\Controller\WechatController.class.php 第 66 行.
+
+[ 2016-11-01T22:20:28+08:00 ] 127.0.0.1 /wechat/fruits.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Fruits\Controller\CommonController.class.php on line 11 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined variable: code E:\wamp\www\weChat\Application\Fruits\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2] curl_errno(): 29 is not a valid cURL handle resource E:\wamp\www\weChat\Application\Fruits\Controller\WechatController.class.php 第 66 行.
+NOTIC: [2] curl_errno(): 30 is not a valid cURL handle resource E:\wamp\www\weChat\Application\Fruits\Controller\WechatController.class.php 第 66 行.
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\wamp\www\weChat\Application\Fruits\Controller\WechatController.class.php 第 66 行.
+
+[ 2016-11-01T22:20:41+08:00 ] 127.0.0.1 /wechat/fruits.php/fruits
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Fruits\Controller\CommonController.class.php on line 11 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined variable: code E:\wamp\www\weChat\Application\Fruits\Controller\CommonController.class.php 第 15 行.
+NOTIC: [2] curl_errno(): 29 is not a valid cURL handle resource E:\wamp\www\weChat\Application\Fruits\Controller\WechatController.class.php 第 66 行.
+NOTIC: [2] curl_errno(): 30 is not a valid cURL handle resource E:\wamp\www\weChat\Application\Fruits\Controller\WechatController.class.php 第 66 行.
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\wamp\www\weChat\Application\Fruits\Controller\WechatController.class.php 第 66 行.
+
+[ 2016-11-01T22:20:48+08:00 ] 127.0.0.1 /wechat/fruits.php/fruits/fruits
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Fruits\Controller\FruitsController.class.php on line 24 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined variable: pckey E:\wamp\www\weChat\Application\Fruits\Controller\FruitsController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: account E:\wamp\www\weChat\Application\Fruits\Controller\FruitsController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: pckey E:\wamp\www\weChat\Application\Fruits\Controller\FruitsController.class.php 第 28 行.
+NOTIC: [2048] Declaration of Fruits\Model\FruitsModel::select() should be compatible with that of Think\Model::select() E:\wamp\www\weChat\Application\Fruits\Model\FruitsModel.class.php 第 9 行.
+ERR: 1146:Table 'fruits.fruits_fruits_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `fruits_fruits_user`
+ERR: 1146:Table 'fruits.fruits_fruits_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `fruits_fruits_user`
+
+[ 2016-11-01T22:22:07+08:00 ] 127.0.0.1 /wechat/fruits.php/fruits/fruits
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+NOTIC: [2] Missing argument 1 for I(), called in E:\wamp\www\weChat\Application\Fruits\Controller\FruitsController.class.php on line 24 and defined E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 271 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 273 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 278 行.
+NOTIC: [8] Undefined variable: name E:\wamp\www\weChat\ThinkPHP\Common\functions.php 第 339 行.
+NOTIC: [8] Undefined variable: pckey E:\wamp\www\weChat\Application\Fruits\Controller\FruitsController.class.php 第 26 行.
+NOTIC: [8] Undefined variable: account E:\wamp\www\weChat\Application\Fruits\Controller\FruitsController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: pckey E:\wamp\www\weChat\Application\Fruits\Controller\FruitsController.class.php 第 28 行.
+NOTIC: [2048] Declaration of Fruits\Model\FruitsModel::select() should be compatible with that of Think\Model::select() E:\wamp\www\weChat\Application\Fruits\Model\FruitsModel.class.php 第 9 行.
+ERR: 1146:Table 'fruits.fruits_fruits_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `fruits_fruits_user`
+ERR: 1146:Table 'fruits.fruits_fruits_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `fruits_fruits_user`
+

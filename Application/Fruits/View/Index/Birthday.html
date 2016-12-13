@@ -1,0 +1,102 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>XXXX_源自大自然的馈赠</title>
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="minimal-ui=yes,width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="msapplication-tap-highlight" content="no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="wap-font-scale" content="no">
+<meta name="applicable-device" content="mobile">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<meta name="tp_page" content="MEMBER_VIP_INDEX.0">
+<link href="__PUBLIC__/{$Think.config.projectName}/css/h5_member_index.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<div class="touchweb-com_header header_flex" id="globalHeader"> <a id="topIconBack" class="left icon-back" href="javascript:history.go(-1);" data-tpa="H5_GLOBAL_ICON_GOBACK" data-trackersend="1"></a>
+  <h1>生日特权</h1>
+  <div class="rightBox" data-tpa="H5_GLOBAL_ICON_RIGHTBOX"> </div>
+</div>
+<div id="container">
+  <div class="member-area_info" data-tpa="POINT_SIGN">
+    <div class="avatar">
+      <div class="avatar_pic"> <img src="__PUBLIC__/{$Think.config.projectName}/images/avatar_vip1.png" width="55" height="55" alt=""> </div>
+      <a class="how_upgrade" href="javascript:void(0);" data-ref="Upgrade">{$birthStr}</a> </div>
+    <div class="info">
+      <p class="name"> Wang </p>
+      <p><strong id="exp">生日特权</strong> </p>
+      <p> 多重惊喜为您庆生！</p>
+      <div class="sign">
+        <empty name="birthday">
+         <div class="text"> <span class="text_item"> 您还填写生日哦！ </span> </div>
+        <div class="btn"> <a id="point_sign" class="check" href="{:U('birthdaySet')}"> 立即填写 </a></div>
+        <else /> 
+        <div class="text"> <span class="text_item">亲，原来你来到这世上已有{$birth}天了!</span> </div>
+       <!-- <div class="btn"> <a id="point_sign" class="check" href="{:U('birthdaySet')}"> 立即填写 </a></div>-->
+       </empty> 
+        
+      </div>
+      <div id="point_sign_tip" class="member-area_product-pop-text"></div>
+    </div>
+  </div>
+  <!--20160804 新增广告图 S--> 
+  <!--20160514 新增广告图 E-->
+  <div class="member-area_privilege" data-tpa="MY_PRIVILEGE">
+    <h2> <span> 权益介绍 </span> </h2>
+    <div class="item_icon_box">
+      <div class="item_icon cur" data-tab="la">
+        <div class="icon"><span class="icon_text icon-money"></span></div>
+        <h3>权益须知</h3>
+      </div>
+      <div class="item_icon" data-tab="lb">
+        <div class="icon"><span class="icon_text icon-car"></span></div>
+        <h3>送货上门</h3>
+      </div>
+      <div class="item_icon" data-tab="lc">
+        <div class="icon"> <span class="icon_text icon-hands"> </span> </div>
+        <h3>全场九折</h3>
+      </div>
+      <div class="item_icon" data-tab="ld">
+        <div class="icon"> <span class="icon_text icon-service"> </span> </div>
+        <h3>白送XXX</h3>
+      </div>
+    </div>
+    <div class="item_desc_box">
+      <div class="item_desc cur" id="la0">
+		<a href="javascript:void(0);" class="receive_btn">温馨提示&gt; </a><br>
+        <p> 1、结算时需提供身份证给收银员核对，须和账号设置的日期一致； </p>
+        <p> 2、生日权益可能会调整，具体调整以网站显示为准. </p>
+        <span class="arrow"> </span> </div>
+      <div class="item_desc" id="la1"> <a href="javascript:void(0);" class="receive_btn">生日权益(1) &gt; </a><br>
+        <p> 1、购满38元，免费送货上门 (我们骑士可以到的地方) </p>
+        <span class="arrow"> </span> </div>
+      <div class="item_desc" id="la2">
+	  <a href="javascript:void(0);" class="receive_btn">生日权益(2) &gt; </a><br>
+        <p> 1、全场9折，一年就这么一天了，还等啥； </p>
+        <span class="arrow"> </span> </div>
+      <div class="item_desc" id="la3">
+	  <a href="javascript:void(0);" class="receive_btn">生日权益(3) &gt; </a><br>
+        <p> 1、白送XXX就是这么任性，为了让您减去等待的时候，请您提早1小时在线预约
+		<a href="javascript:void(0);" class="receive_btn">生日果盘</a>； </p>
+		<p>2、XXXXX虽然免费，可亲别忘记带身份证！身份证！身份证！重要事情说3遍...</p>
+        <span class="arrow"> </span> </div>
+    </div>
+  </div>
+</div>
+<nav></nav>
+</body>
+</html>
+<script type="text/javascript" src="__PUBLIC__/Library/jquery-1.9.1/jquery.js" charset="utf-8"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".item_icon").click(function(){
+			$(".item_desc").removeClass("cur");
+			$("#la"+$(this).index()).addClass("cur");
+
+		});
+	});
+</script>

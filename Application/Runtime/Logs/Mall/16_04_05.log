@@ -1,0 +1,307 @@
+[ 2016-04-05T01:36:43+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.3db892ef3225a9a2f6254f1a800c7be2.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.086970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.369843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.370254s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T01:36:43+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.f584212a5e8dc5b76d729eae19f9722d.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000152s ]
+INFO: [ app_init ] --END-- [ RunTime:0.083566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.370776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.371173s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T01:36:43+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.17c15680e1db222ab0f5aa4c860ecc11.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.083638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.373809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.374451s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T01:36:43+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.9d6349030cafa4a5cca9ddb2a1437f9b.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.088579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.376232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.376684s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T01:36:43+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.9b66fc02b599c13f0bd01f1eaa64895b.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.084264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.375972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.376450s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T01:36:43+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.de685c6c6cf138e652ffab6bb1f45ada.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.083620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.376227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.376586s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T01:36:43+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.774c509fef2e54003f52346246d2b94d.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T01:36:43+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.534bd5ab74d23eede10fd1a83fb195f4.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T01:36:43+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.a48e1449a4a0915a21c41704c587d0d7.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T01:36:43+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.2808cf14b34a44a4438dc407447374fa.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T11:55:04+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.17c15680e1db222ab0f5aa4c860ecc11.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.096794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.097272s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T11:55:04+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.9d6349030cafa4a5cca9ddb2a1437f9b.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.092301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.092768s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T11:55:04+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.f584212a5e8dc5b76d729eae19f9722d.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.089648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.090048s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T11:55:04+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.de685c6c6cf138e652ffab6bb1f45ada.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.096706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.097227s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T11:55:04+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.9b66fc02b599c13f0bd01f1eaa64895b.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.096081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.096447s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T11:55:04+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.3db892ef3225a9a2f6254f1a800c7be2.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.098897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.099345s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T11:55:04+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.2808cf14b34a44a4438dc407447374fa.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000958s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T11:55:04+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.a48e1449a4a0915a21c41704c587d0d7.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T11:55:04+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.774c509fef2e54003f52346246d2b94d.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T11:55:04+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.534bd5ab74d23eede10fd1a83fb195f4.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T12:30:44+08:00 ] 127.0.0.1 /mall.php/mall/cart
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `wx_goods_specfocus` [ RunTime:0.0166s ]
+SQL: SELECT wx_goods_specfocus.id,wx_goods_specfocus.focus_name,wx_goods_specfocus.spec_mey,wx_goods_specfocus.spec_stock,wx_goods_spec.spec_name,wx_goods.title,wx_goods_picture.img_url FROM `wx_goods_specfocus` INNER JOIN wx_goods_spec ON  wx_goods_specfocus.spec_id = wx_goods_spec.id INNER JOIN wx_goods ON  wx_goods_spec.goods_id = wx_goods.id INNER JOIN wx_goods_picture ON wx_goods.id = wx_goods_picture.img_id  WHERE wx_goods_specfocus.id IN (3,1,12,4,7,13,14) AND wx_goods_picture.sort = 1  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000489s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.206781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.207250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.030850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016732s ]
+
+[ 2016-04-05T12:30:44+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.f584212a5e8dc5b76d729eae19f9722d.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T12:30:44+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.9d6349030cafa4a5cca9ddb2a1437f9b.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002071s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T12:30:44+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.17c15680e1db222ab0f5aa4c860ecc11.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T12:30:44+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.3db892ef3225a9a2f6254f1a800c7be2.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002849s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T12:30:44+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.774c509fef2e54003f52346246d2b94d.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T12:30:44+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.a48e1449a4a0915a21c41704c587d0d7.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T12:30:44+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.2808cf14b34a44a4438dc407447374fa.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T12:30:44+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/cert.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+
+[ 2016-04-05T12:30:44+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.de685c6c6cf138e652ffab6bb1f45ada.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.110172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.110921s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T12:30:44+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/web_trust.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+
+[ 2016-04-05T12:30:44+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/credit.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+
+[ 2016-04-05T12:30:44+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.534bd5ab74d23eede10fd1a83fb195f4.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001074s ]
+ERR: 无法加载控制器:Cart_files
+
+[ 2016-04-05T12:30:44+08:00 ] 127.0.0.1 /mall.php/mall/cart_files/700x700.9b66fc02b599c13f0bd01f1eaa64895b.180x180.jpg.webp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.035626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.037394s ]
+ERR: 无法加载控制器:Cart_files
+
