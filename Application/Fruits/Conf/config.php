@@ -5,7 +5,7 @@ return array(
 
 	//PDO连接方式
 
-	'DB_PREFIX'    =>  'fruits_',     // 数据库表前缀
+	'DB_PREFIX'    =>  'wx_',// 数据库表前缀
 	
 	//默认成功跳转对应的模板文件
 	'TMPL_ACTION_ERROR' => THINK_PATH . 'Tpl/error_show.tpl',
